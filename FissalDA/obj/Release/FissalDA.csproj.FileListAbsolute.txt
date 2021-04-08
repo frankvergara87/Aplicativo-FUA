@@ -1,0 +1,28 @@
+C:\FissalV2DEV_RTM08.04.2015\FissalV2DEV\FissalDA\bin\Release\FissalDA.dll
+C:\FissalV2DEV_RTM08.04.2015\FissalV2DEV\FissalDA\bin\Release\FissalDA.pdb
+C:\FissalV2DEV_RTM08.04.2015\FissalV2DEV\FissalDA\bin\Release\FissalBE.dll
+C:\FissalV2DEV_RTM08.04.2015\FissalV2DEV\FissalDA\bin\Release\FissalBE.pdb
+C:\FissalV2DEV_RTM08.04.2015\FissalV2DEV\FissalDA\obj\Release\FissalDA.csprojResolveAssemblyReference.cache
+C:\FissalV2DEV_RTM08.04.2015\FissalV2DEV\FissalDA\obj\Release\FissalDA.dll
+C:\FissalV2DEV_RTM08.04.2015\FissalV2DEV\FissalDA\obj\Release\FissalDA.pdb
+C:\FissalV2DEV_RTM\FissalV2DEV\FissalDA\bin\Release\FissalDA.dll
+C:\FissalV2DEV_RTM\FissalV2DEV\FissalDA\bin\Release\FissalDA.pdb
+C:\FissalV2DEV_RTM\FissalV2DEV\FissalDA\bin\Release\FissalBE.dll
+C:\FissalV2DEV_RTM\FissalV2DEV\FissalDA\bin\Release\FissalBE.pdb
+C:\FissalV2DEV_RTM\FissalV2DEV\FissalDA\obj\Release\FissalDA.csprojResolveAssemblyReference.cache
+C:\FissalV2DEV_RTM\FissalV2DEV\FissalDA\obj\Release\FissalDA.dll
+C:\FissalV2DEV_RTM\FissalV2DEV\FissalDA\obj\Release\FissalDA.pdb
+D:\C\FissalV2DEV_RTM\FissalV2DEV\FissalDA\bin\Release\FissalDA.dll
+D:\C\FissalV2DEV_RTM\FissalV2DEV\FissalDA\bin\Release\FissalDA.pdb
+D:\C\FissalV2DEV_RTM\FissalV2DEV\FissalDA\bin\Release\FissalBE.dll
+D:\C\FissalV2DEV_RTM\FissalV2DEV\FissalDA\bin\Release\FissalBE.pdb
+D:\C\FissalV2DEV_RTM\FissalV2DEV\FissalDA\obj\Release\FissalDA.csprojResolveAssemblyReference.cache
+D:\C\FissalV2DEV_RTM\FissalV2DEV\FissalDA\obj\Release\FissalDA.dll
+D:\C\FissalV2DEV_RTM\FissalV2DEV\FissalDA\obj\Release\FissalDA.pdb
+D:\fvergara\Desktop\APLICACION FUA V2\FissalV2DEV\FissalDA\bin\Release\FissalDA.dll
+D:\fvergara\Desktop\APLICACION FUA V2\FissalV2DEV\FissalDA\bin\Release\FissalDA.pdb
+D:\fvergara\Desktop\APLICACION FUA V2\FissalV2DEV\FissalDA\bin\Release\FissalBE.dll
+D:\fvergara\Desktop\APLICACION FUA V2\FissalV2DEV\FissalDA\bin\Release\FissalBE.pdb
+D:\fvergara\Desktop\APLICACION FUA V2\FissalV2DEV\FissalDA\obj\Release\FissalDA.csprojResolveAssemblyReference.cache
+D:\fvergara\Desktop\APLICACION FUA V2\FissalV2DEV\FissalDA\obj\Release\FissalDA.dll
+D:\fvergara\Desktop\APLICACION FUA V2\FissalV2DEV\FissalDA\obj\Release\FissalDA.pdb

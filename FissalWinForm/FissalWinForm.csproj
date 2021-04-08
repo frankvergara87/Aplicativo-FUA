@@ -1,0 +1,966 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{47696150-2AB6-4820-B6DC-1747CDD542B7}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FissalWinForm</RootNamespace>
+    <AssemblyName>FissalWinForm</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <PublishUrl>publicar\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Resources\favicon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="ICSharpCode.SharpZipLib">
+      <HintPath>..\Libs\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Ionic.Zip">
+      <HintPath>..\Libs\Ionic.Zip.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="NPOI">
+      <HintPath>..\Libs\NPOI.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI.OOXML">
+      <HintPath>..\Libs\NPOI.OOXML.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI.OpenXml4Net">
+      <HintPath>..\Libs\NPOI.OpenXml4Net.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI.OpenXmlFormats">
+      <HintPath>..\Libs\NPOI.OpenXmlFormats.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Atencion\FrmCierreDigitacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Atencion\FrmCierreDigitacion.Designer.cs">
+      <DependentUpon>FrmCierreDigitacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Atencion\FrmControlCalidad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Atencion\FrmControlCalidad.Designer.cs">
+      <DependentUpon>FrmControlCalidad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Atencion\FrmEstadisticasAtenciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Atencion\FrmEstadisticasAtenciones.Designer.cs">
+      <DependentUpon>FrmEstadisticasAtenciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Atencion\FrmExportarAtencion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Atencion\FrmExportarAtencion.Designer.cs">
+      <DependentUpon>FrmExportarAtencion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Atencion\FrmBuscarAtencion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Atencion\FrmBuscarAtencion.designer.cs">
+      <DependentUpon>FrmBuscarAtencion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Atencion\FrmBuscarEnfermedad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Atencion\FrmBuscarEnfermedad.designer.cs">
+      <DependentUpon>FrmBuscarEnfermedad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Atencion\FrmBuscarEESS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Atencion\FrmBuscarEESS.designer.cs">
+      <DependentUpon>FrmBuscarEESS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Atencion\FrmBuscarMedicamento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Atencion\FrmBuscarMedicamento.Designer.cs">
+      <DependentUpon>FrmBuscarMedicamento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Atencion\FrmBuscarProcedimiento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Atencion\FrmBuscarProcedimiento.Designer.cs">
+      <DependentUpon>FrmBuscarProcedimiento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Atencion\FrmBuscarProfesional.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Atencion\FrmBuscarProfesional.designer.cs">
+      <DependentUpon>FrmBuscarProfesional.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Atencion\FrmBuscarTarifario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Atencion\FrmBuscarTarifario.Designer.cs">
+      <DependentUpon>FrmBuscarTarifario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Atencion\FrmFua2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Atencion\FrmFua2.designer.cs">
+      <DependentUpon>FrmFua2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Atencion\FrmPostConsistencia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Atencion\FrmPostConsistencia.Designer.cs">
+      <DependentUpon>FrmPostConsistencia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Atencion\FrmProcesoWS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Atencion\FrmProcesoWS.Designer.cs">
+      <DependentUpon>FrmProcesoWS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Atencion\FrmReportes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Atencion\FrmReportes.Designer.cs">
+      <DependentUpon>FrmReportes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ayuda\FrmAcercade.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ayuda\FrmAcercade.Designer.cs">
+      <DependentUpon>FrmAcercade.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ayuda\FrmAyuda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ayuda\FrmAyuda.Designer.cs">
+      <DependentUpon>FrmAyuda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Atencion\FrmReporteAtencion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Atencion\FrmReporteAtencion.Designer.cs">
+      <DependentUpon>FrmReporteAtencion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlMedico\FrmFuasObservados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlMedico\FrmFuasObservados.Designer.cs">
+      <DependentUpon>FrmFuasObservados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlMedico\FrmRegistrarObservacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlMedico\FrmRegistrarObservacion.Designer.cs">
+      <DependentUpon>FrmRegistrarObservacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlMedico\IFrmRegistrarObservacion.cs" />
+    <Compile Include="ControlMedico\FrmSelectorControlesMedicos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlMedico\FrmSelectorControlesMedicos.Designer.cs">
+      <DependentUpon>FrmSelectorControlesMedicos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlMedico\FrmFuasObservadosDet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlMedico\FrmFuasObservadosDet.Designer.cs">
+      <DependentUpon>FrmFuasObservadosDet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GestionCta\Reportes\FrmSupervisionGestionCta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GestionCta\Reportes\FrmSupervisionGestionCta.Designer.cs">
+      <DependentUpon>FrmSupervisionGestionCta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MDAutorizacion\FrmPreAutorizacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDAutorizacion\FrmPreAutorizacion.Designer.cs">
+      <DependentUpon>FrmPreAutorizacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MDAutorizacion\FrmPreautorizaciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDAutorizacion\FrmPreautorizaciones.Designer.cs">
+      <DependentUpon>FrmPreautorizaciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Herramientas\FormSelectorTratamientos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Herramientas\FormSelectorTratamientos.Designer.cs">
+      <DependentUpon>FormSelectorTratamientos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Herramientas\FrmSelectorPacientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Herramientas\FrmSelectorPacientes.Designer.cs">
+      <DependentUpon>FrmSelectorPacientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GestionCta\EstadoCuenta\FrmEstadoCuenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GestionCta\EstadoCuenta\FrmEstadoCuenta.Designer.cs">
+      <DependentUpon>FrmEstadoCuenta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Funciones\ListtoDataTableConverter.cs" />
+    <Compile Include="GestionCta\Conciliacion\FrmGestionConciliacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GestionCta\Conciliacion\FrmGestionConciliacion.designer.cs">
+      <DependentUpon>FrmGestionConciliacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GestionCta\Conciliacion\FrmRegistrarConciliacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GestionCta\Conciliacion\FrmRegistrarConciliacion.designer.cs">
+      <DependentUpon>FrmRegistrarConciliacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GestionCta\ControlMedico\FrmGestionControlMedico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GestionCta\ControlMedico\FrmGestionControlMedico.designer.cs">
+      <DependentUpon>FrmGestionControlMedico.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GestionCta\ControlMedico\FrmRegistrarControlMedico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GestionCta\ControlMedico\FrmRegistrarControlMedico.designer.cs">
+      <DependentUpon>FrmRegistrarControlMedico.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GestionCta\EstadoCuenta\FrmGestionEstadoCuenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GestionCta\EstadoCuenta\FrmGestionEstadoCuenta.designer.cs">
+      <DependentUpon>FrmGestionEstadoCuenta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GestionCta\Conciliacion\FrmResumenConciliacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GestionCta\Conciliacion\FrmResumenConciliacion.Designer.cs">
+      <DependentUpon>FrmResumenConciliacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GestionCta\FrmCerrarProduccion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GestionCta\FrmCerrarProduccion.designer.cs">
+      <DependentUpon>FrmCerrarProduccion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GestionCta\FrmGestionProduccion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GestionCta\FrmGestionProduccion.designer.cs">
+      <DependentUpon>FrmGestionProduccion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GestionCta\FrmRegistrarProduccion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GestionCta\FrmRegistrarProduccion.designer.cs">
+      <DependentUpon>FrmRegistrarProduccion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Herramientas\FrmEstadisticasAtendidosSis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Herramientas\FrmEstadisticasAtendidosSis.Designer.cs">
+      <DependentUpon>FrmEstadisticasAtendidosSis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlMedico\IFrmSelectorControlesMedicos.cs" />
+    <Compile Include="Herramientas\IFormSelectorTratamientos.cs" />
+    <Compile Include="Herramientas\IFrmSelectorPacientes.cs" />
+    <Compile Include="Login\frmControlUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login\frmControlUsuario.Designer.cs">
+      <DependentUpon>frmControlUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimiento\FrmProfesional.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimiento\FrmProfesional.Designer.cs">
+      <DependentUpon>FrmProfesional.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MDAutorizacion\FrmSolicitudAutorizacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDAutorizacion\FrmSolicitudAutorizacion.Designer.cs">
+      <DependentUpon>FrmSolicitudAutorizacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MDAutorizacion\FrmSolicitudesAutorizacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDAutorizacion\FrmSolicitudesAutorizacion.Designer.cs">
+      <DependentUpon>FrmSolicitudesAutorizacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Herramientas\FrmBuscadorAtencionesSis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Herramientas\FrmBuscadorAtencionesSis.Designer.cs">
+      <DependentUpon>FrmBuscadorAtencionesSis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimiento\FrmReset.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimiento\FrmReset.Designer.cs">
+      <DependentUpon>FrmReset.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MDAutorizacion\FrmGestionarAutorizaciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDAutorizacion\FrmGestionarAutorizaciones.Designer.cs">
+      <DependentUpon>FrmGestionarAutorizaciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimiento\FrmExit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimiento\FrmExit.Designer.cs">
+      <DependentUpon>FrmExit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MDAutorizacion\FrmEstadisticasAutorizaciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDAutorizacion\FrmEstadisticasAutorizaciones.Designer.cs">
+      <DependentUpon>FrmEstadisticasAutorizaciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MDMaestros\Paquete\FrmBuscarPaquete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDMaestros\Paquete\FrmBuscarPaquete.Designer.cs">
+      <DependentUpon>FrmBuscarPaquete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MDMaestros\Paquete\FrmPaqueteDetalle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDMaestros\Paquete\FrmPaqueteDetalle.Designer.cs">
+      <DependentUpon>FrmPaqueteDetalle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MDMaestros\Paquete\FrmRegistrarPaquete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDMaestros\Paquete\FrmRegistrarPaquete.Designer.cs">
+      <DependentUpon>FrmRegistrarPaquete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MDValorizacion\FrmConsumoValorizado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDValorizacion\FrmConsumoValorizado.Designer.cs">
+      <DependentUpon>FrmConsumoValorizado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MDValorizacion\FrmFuaDetalle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDValorizacion\FrmFuaDetalle.Designer.cs">
+      <DependentUpon>FrmFuaDetalle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MDValorizacion\FrmListaFuaNoValorizado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDValorizacion\FrmListaFuaNoValorizado.Designer.cs">
+      <DependentUpon>FrmListaFuaNoValorizado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MDValorizacion\FrmListaMedProcNoValorizado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDValorizacion\FrmListaMedProcNoValorizado.Designer.cs">
+      <DependentUpon>FrmListaMedProcNoValorizado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlMedico\FrmFua.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlMedico\FrmFua.designer.cs">
+      <DependentUpon>FrmFua.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Herramientas\IFrmSelectorCategorias.cs" />
+    <Compile Include="Herramientas\IFrmSelectorMedicamentos.cs" />
+    <Compile Include="Herramientas\IFrmSelectorProcedimientos.cs" />
+    <Compile Include="Mantenimiento\FrmMantPerfiles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimiento\FrmMantPerfiles.Designer.cs">
+      <DependentUpon>FrmMantPerfiles.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Herramientas\IFrmSelectorEstablecimientos.cs" />
+    <Compile Include="Herramientas\FrmSelectorEstablecimientos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Herramientas\FrmSelectorEstablecimientos.Designer.cs">
+      <DependentUpon>FrmSelectorEstablecimientos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Herramientas\IFrmSelectorEstadios.cs" />
+    <Compile Include="Herramientas\FrmSelectorEstadios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Herramientas\FrmSelectorEstadios.Designer.cs">
+      <DependentUpon>FrmSelectorEstadios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Herramientas\IFrmSelectorFases.cs" />
+    <Compile Include="Herramientas\FrmSelectorFases.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Herramientas\FrmSelectorFases.Designer.cs">
+      <DependentUpon>FrmSelectorFases.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimiento\FrmPerfiles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimiento\FrmPerfiles.Designer.cs">
+      <DependentUpon>FrmPerfiles.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimiento\FrmUsuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimiento\FrmUsuarios.Designer.cs">
+      <DependentUpon>FrmUsuarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Herramientas\IFrmSelectorTiposAutorizacion.cs" />
+    <Compile Include="Herramientas\FrmSelectorTiposAutorizacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Herramientas\FrmSelectorTiposAutorizacion.Designer.cs">
+      <DependentUpon>FrmSelectorTiposAutorizacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MDAutorizacion\FrmBuscadorAutorizaciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDAutorizacion\FrmBuscadorAutorizaciones.Designer.cs">
+      <DependentUpon>FrmBuscadorAutorizaciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MDAutorizacion\frmRegistrarAutorizacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDAutorizacion\frmRegistrarAutorizacion.Designer.cs">
+      <DependentUpon>frmRegistrarAutorizacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MDAutorizacion\frmReporteAutorizacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDAutorizacion\frmReporteAutorizacion.Designer.cs">
+      <DependentUpon>frmReporteAutorizacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MDAutorizacion\Reportes\rptAutorizacionesPorFechaDeCreacion.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptAutorizacionesPorFechaDeCreacion.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ControlMedico\FrmBuscadorAtenciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlMedico\FrmBuscadorAtenciones.Designer.cs">
+      <DependentUpon>FrmBuscadorAtenciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Herramientas\FrmSelectorCategorias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Herramientas\FrmSelectorCategorias.Designer.cs">
+      <DependentUpon>FrmSelectorCategorias.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Herramientas\FrmSelectorMedicamentos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Herramientas\FrmSelectorMedicamentos.Designer.cs">
+      <DependentUpon>FrmSelectorMedicamentos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Herramientas\FrmSelectorProcedimientos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Herramientas\FrmSelectorProcedimientos.designer.cs">
+      <DependentUpon>FrmSelectorProcedimientos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Funciones\Constantes.cs" />
+    <Compile Include="Funciones\FuncionesBases.cs" />
+    <Compile Include="Login\frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login\frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MDValorizacion\FrmValorizacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDValorizacion\FrmValorizacion.Designer.cs">
+      <DependentUpon>FrmValorizacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MDValorizacion\FrmValorizacionPreliminar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDValorizacion\FrmValorizacionPreliminar.Designer.cs">
+      <DependentUpon>FrmValorizacionPreliminar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\frmPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\frmPrincipal.Designer.cs">
+      <DependentUpon>frmPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service References\Fissal.WSExternos\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\ServiceReference1\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Valorizacion\Valorizacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Valorizacion\Valorizacion.designer.cs">
+      <DependentUpon>Valorizacion.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Atencion\FrmCierreDigitacion.resx">
+      <DependentUpon>FrmCierreDigitacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Atencion\FrmControlCalidad.resx">
+      <DependentUpon>FrmControlCalidad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Atencion\FrmEstadisticasAtenciones.resx">
+      <DependentUpon>FrmEstadisticasAtenciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Atencion\FrmExportarAtencion.resx">
+      <DependentUpon>FrmExportarAtencion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Atencion\FrmBuscarAtencion.resx">
+      <DependentUpon>FrmBuscarAtencion.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Atencion\FrmBuscarEnfermedad.resx">
+      <DependentUpon>FrmBuscarEnfermedad.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Atencion\FrmBuscarEESS.resx">
+      <DependentUpon>FrmBuscarEESS.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Atencion\FrmBuscarMedicamento.resx">
+      <DependentUpon>FrmBuscarMedicamento.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Atencion\FrmBuscarProcedimiento.resx">
+      <DependentUpon>FrmBuscarProcedimiento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Atencion\FrmBuscarProfesional.resx">
+      <DependentUpon>FrmBuscarProfesional.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Atencion\FrmBuscarTarifario.resx">
+      <DependentUpon>FrmBuscarTarifario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Atencion\FrmFua2.resx">
+      <DependentUpon>FrmFua2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Atencion\FrmPostConsistencia.resx">
+      <DependentUpon>FrmPostConsistencia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Atencion\FrmProcesoWS.resx">
+      <DependentUpon>FrmProcesoWS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Atencion\FrmReportes.resx">
+      <DependentUpon>FrmReportes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ayuda\FrmAcercade.resx">
+      <DependentUpon>FrmAcercade.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ayuda\FrmAyuda.resx">
+      <DependentUpon>FrmAyuda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlMedico\FrmFuasObservados.resx">
+      <DependentUpon>FrmFuasObservados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlMedico\FrmRegistrarObservacion.resx">
+      <DependentUpon>FrmRegistrarObservacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlMedico\FrmSelectorControlesMedicos.resx">
+      <DependentUpon>FrmSelectorControlesMedicos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlMedico\FrmFuasObservadosDet.resx">
+      <DependentUpon>FrmFuasObservadosDet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GestionCta\Reportes\FrmSupervisionGestionCta.resx">
+      <DependentUpon>FrmSupervisionGestionCta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDAutorizacion\FrmPreAutorizacion.resx">
+      <DependentUpon>FrmPreAutorizacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDAutorizacion\FrmPreautorizaciones.resx">
+      <DependentUpon>FrmPreautorizaciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Herramientas\FormSelectorTratamientos.resx">
+      <DependentUpon>FormSelectorTratamientos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Herramientas\FrmSelectorPacientes.resx">
+      <DependentUpon>FrmSelectorPacientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GestionCta\EstadoCuenta\FrmEstadoCuenta.resx">
+      <DependentUpon>FrmEstadoCuenta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GestionCta\Conciliacion\FrmGestionConciliacion.resx">
+      <DependentUpon>FrmGestionConciliacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GestionCta\Conciliacion\FrmRegistrarConciliacion.resx">
+      <DependentUpon>FrmRegistrarConciliacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GestionCta\ControlMedico\FrmGestionControlMedico.resx">
+      <DependentUpon>FrmGestionControlMedico.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GestionCta\ControlMedico\FrmRegistrarControlMedico.resx">
+      <DependentUpon>FrmRegistrarControlMedico.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GestionCta\EstadoCuenta\FrmGestionEstadoCuenta.resx">
+      <DependentUpon>FrmGestionEstadoCuenta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GestionCta\Conciliacion\FrmResumenConciliacion.resx">
+      <DependentUpon>FrmResumenConciliacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GestionCta\FrmCerrarProduccion.resx">
+      <DependentUpon>FrmCerrarProduccion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GestionCta\FrmGestionProduccion.resx">
+      <DependentUpon>FrmGestionProduccion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GestionCta\FrmRegistrarProduccion.resx">
+      <DependentUpon>FrmRegistrarProduccion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Herramientas\FrmEstadisticasAtendidosSis.resx">
+      <DependentUpon>FrmEstadisticasAtendidosSis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login\frmControlUsuario.resx">
+      <DependentUpon>frmControlUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mantenimiento\FrmProfesional.resx">
+      <DependentUpon>FrmProfesional.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDAutorizacion\FrmSolicitudAutorizacion.resx">
+      <DependentUpon>FrmSolicitudAutorizacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDAutorizacion\FrmSolicitudesAutorizacion.resx">
+      <DependentUpon>FrmSolicitudesAutorizacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mantenimiento\FrmReset.resx">
+      <DependentUpon>FrmReset.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Atencion\FrmReporteAtencion.resx">
+      <DependentUpon>FrmReporteAtencion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDAutorizacion\FrmGestionarAutorizaciones.resx">
+      <DependentUpon>FrmGestionarAutorizaciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mantenimiento\FrmExit.resx">
+      <DependentUpon>FrmExit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Herramientas\FrmBuscadorAtencionesSis.resx">
+      <DependentUpon>FrmBuscadorAtencionesSis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDAutorizacion\FrmEstadisticasAutorizaciones.resx">
+      <DependentUpon>FrmEstadisticasAutorizaciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDMaestros\Paquete\FrmBuscarPaquete.resx">
+      <DependentUpon>FrmBuscarPaquete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDMaestros\Paquete\FrmPaqueteDetalle.resx">
+      <DependentUpon>FrmPaqueteDetalle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDMaestros\Paquete\FrmRegistrarPaquete.resx">
+      <DependentUpon>FrmRegistrarPaquete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDValorizacion\FrmConsumoValorizado.resx">
+      <DependentUpon>FrmConsumoValorizado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDValorizacion\FrmFuaDetalle.resx">
+      <DependentUpon>FrmFuaDetalle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDValorizacion\FrmListaFuaNoValorizado.resx">
+      <DependentUpon>FrmListaFuaNoValorizado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDValorizacion\FrmListaMedProcNoValorizado.resx">
+      <DependentUpon>FrmListaMedProcNoValorizado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlMedico\FrmFua.resx">
+      <DependentUpon>FrmFua.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mantenimiento\FrmMantPerfiles.resx">
+      <DependentUpon>FrmMantPerfiles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mantenimiento\FrmPerfiles.resx">
+      <DependentUpon>FrmPerfiles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mantenimiento\FrmUsuarios.resx">
+      <DependentUpon>FrmUsuarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDAutorizacion\FrmBuscadorAutorizaciones.resx">
+      <DependentUpon>FrmBuscadorAutorizaciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDAutorizacion\frmRegistrarAutorizacion.resx">
+      <DependentUpon>frmRegistrarAutorizacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDAutorizacion\frmReporteAutorizacion.resx">
+      <DependentUpon>frmReporteAutorizacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Herramientas\FrmSelectorEstablecimientos.resx">
+      <DependentUpon>FrmSelectorEstablecimientos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Herramientas\FrmSelectorEstadios.resx">
+      <DependentUpon>FrmSelectorEstadios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Herramientas\FrmSelectorFases.resx">
+      <DependentUpon>FrmSelectorFases.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Herramientas\FrmSelectorTiposAutorizacion.resx">
+      <DependentUpon>FrmSelectorTiposAutorizacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDAutorizacion\Reportes\rptAutorizacionesPorFechaDeCreacion.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptAutorizacionesPorFechaDeCreacion.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlMedico\FrmBuscadorAtenciones.resx">
+      <DependentUpon>FrmBuscadorAtenciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Herramientas\FrmSelectorCategorias.resx">
+      <DependentUpon>FrmSelectorCategorias.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Herramientas\FrmSelectorMedicamentos.resx">
+      <DependentUpon>FrmSelectorMedicamentos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Herramientas\FrmSelectorProcedimientos.resx">
+      <DependentUpon>FrmSelectorProcedimientos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login\frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDValorizacion\FrmValorizacion.resx">
+      <DependentUpon>FrmValorizacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDValorizacion\FrmValorizacionPreliminar.resx">
+      <DependentUpon>FrmValorizacionPreliminar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\frmPrincipal.resx">
+      <DependentUpon>frmPrincipal.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Valorizacion\Valorizacion.resx">
+      <DependentUpon>Valorizacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Ayuda\Fissal.chm" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Service References\Fissal.WSExternos\FissalWinForm.Fissal.WSExternos.PacienteRespuesta.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Fissal.WSExternos\PacienteService.wsdl" />
+    <None Include="Service References\Fissal.WSExternos\PacienteService.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\Fissal.WSExternos\PacienteService1.wsdl" />
+    <None Include="Service References\Fissal.WSExternos\PacienteService1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\Fissal.WSExternos\PacienteService2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\Fissal.WSExternos\PacienteService3.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\ServiceReference1\FissalWinForm.ServiceReference1.BuscarAseguradosDocIdentResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServiceReference1\FissalWinForm.ServiceReference1.BuscarDNI_BResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServiceReference1\sisws1.wsdl" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FissalBE\FissalBE.csproj">
+      <Project>{1fce949d-12d1-4e64-8d7a-9ae8f9505847}</Project>
+      <Name>FissalBE</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FissalBL\FissalBL.csproj">
+      <Project>{1bf66e07-0552-4c3d-a5f0-543dfe828faf}</Project>
+      <Name>FissalBL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ControlMedico\img\buscar.png" />
+    <Content Include="ControlMedico\img\calculadora.png" />
+    <Content Include="ControlMedico\img\excel.png" />
+    <Content Include="ControlMedico\img\guardar.png" />
+    <Content Include="ControlMedico\img\salir.png" />
+    <Content Include="favicon.ico" />
+    <Content Include="Resources\favicon.ico" />
+    <Content Include="Resources\fissal_iso.jpg" />
+    <Content Include="Resources\fissal_iso.png" />
+    <Content Include="Resources\grey_new_seo-44-128.png" />
+    <Content Include="Resources\grey_new_seo2-40-128.png" />
+    <Content Include="Resources\logoentero.jpg" />
+    <Content Include="Resources\logoentero1.jpg" />
+    <Content Include="Resources\logout-128.png" />
+    <Content Include="Resources\seo_successful_planning_checkmark-128.png" />
+    <None Include="Service References\Fissal.WSExternos\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Service References\Fissal.WSExternos\configuration.svcinfo" />
+    <None Include="Service References\Fissal.WSExternos\configuration91.svcinfo" />
+    <None Include="Service References\ServiceReference1\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Service References\ServiceReference1\configuration.svcinfo" />
+    <None Include="Service References\ServiceReference1\configuration91.svcinfo" />
+    <None Include="Resources\User_answer.png" />
+    <None Include="Resources\user.png" />
+    <None Include="Resources\titulo_fissal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>5</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>7</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="MDTarifario\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 y x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\Fissal.WSExternos\" />
+    <WCFMetadataStorage Include="Service References\ServiceReference1\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

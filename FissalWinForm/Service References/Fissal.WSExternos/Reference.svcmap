@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="fed34493-0a1c-4186-9160-8851e16f5c1c" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://www.fissal.gob.pe/wsphronesis/paciente/pacienteservice.svc?wsdl" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="PacienteService.wsdl" MetadataType="Wsdl" ID="24a68945-83e5-4325-a74f-d31c66a3a621" SourceId="1" SourceUrl="http://www.fissal.gob.pe/wsphronesis/paciente/PacienteService.svc?wsdl=wsdl0" />
+    <MetadataFile FileName="PacienteService.xsd" MetadataType="Schema" ID="0d725987-9697-4b74-a867-01a949fdf13a" SourceId="1" SourceUrl="http://www.fissal.gob.pe/wsphronesis/paciente/PacienteService.svc?xsd=xsd3" />
+    <MetadataFile FileName="PacienteService1.xsd" MetadataType="Schema" ID="4bfc0b34-e7fd-473d-8c59-34cd08faf2b0" SourceId="1" SourceUrl="http://www.fissal.gob.pe/wsphronesis/paciente/PacienteService.svc?xsd=xsd2" />
+    <MetadataFile FileName="PacienteService2.xsd" MetadataType="Schema" ID="7967bd08-7208-4d5d-9fb4-59f187fc6b19" SourceId="1" SourceUrl="http://www.fissal.gob.pe/wsphronesis/paciente/PacienteService.svc?xsd=xsd1" />
+    <MetadataFile FileName="PacienteService3.xsd" MetadataType="Schema" ID="4ef2f26d-e366-455c-b879-fcfc15f391ac" SourceId="1" SourceUrl="http://www.fissal.gob.pe/wsphronesis/paciente/PacienteService.svc?xsd=xsd0" />
+    <MetadataFile FileName="PacienteService1.wsdl" MetadataType="Wsdl" ID="5b886741-2e85-4a5e-a571-4308ccf3ab43" SourceId="1" SourceUrl="http://www.fissal.gob.pe/wsphronesis/paciente/pacienteservice.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

@@ -1,0 +1,11 @@
+C:\FRANK ULTIMA VERSION\Aplicativo Fua - Version 9\FissalSWSExternos\bin\FissalSWSExternos.dll.config
+C:\FRANK ULTIMA VERSION\Aplicativo Fua - Version 9\FissalSWSExternos\bin\FissalSWSExternos.dll
+C:\FRANK ULTIMA VERSION\Aplicativo Fua - Version 9\FissalSWSExternos\bin\FissalSWSExternos.pdb
+C:\FRANK ULTIMA VERSION\Aplicativo Fua - Version 9\FissalSWSExternos\bin\FisalUtil.dll
+C:\FRANK ULTIMA VERSION\Aplicativo Fua - Version 9\FissalSWSExternos\bin\NPOI.dll
+C:\FRANK ULTIMA VERSION\Aplicativo Fua - Version 9\FissalSWSExternos\bin\Ionic.Zip.dll
+C:\FRANK ULTIMA VERSION\Aplicativo Fua - Version 9\FissalSWSExternos\bin\ICSharpCode.SharpZipLib.dll
+C:\FRANK ULTIMA VERSION\Aplicativo Fua - Version 9\FissalSWSExternos\bin\FisalUtil.pdb
+C:\FRANK ULTIMA VERSION\Aplicativo Fua - Version 9\FissalSWSExternos\obj\Release\FissalSWSExternos.csprojResolveAssemblyReference.cache
+C:\FRANK ULTIMA VERSION\Aplicativo Fua - Version 9\FissalSWSExternos\obj\Release\FissalSWSExternos.dll
+C:\FRANK ULTIMA VERSION\Aplicativo Fua - Version 9\FissalSWSExternos\obj\Release\FissalSWSExternos.pdb

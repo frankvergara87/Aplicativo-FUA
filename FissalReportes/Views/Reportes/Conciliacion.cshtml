@@ -1,0 +1,652 @@
+﻿@{
+    ViewBag.Title = "Reporte de Abono de Conciliacion";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+}
+
+@section scripts{
+
+    <script>
+        $(function () {
+
+            var source =
+            {
+                datatype: "json",
+                datafields: [
+                    { name: 'ipress'},
+                    { name: 'abono'},
+                    { name: 'debito'}
+                ],
+                url: '/Reportes/ObtenerReporChartabodeb'
+            };
+            var dataAdapter = new $.jqx.dataAdapter(source, { async: false, autoBind: true, loadError: function (xhr, status, error) { alert('Error loading "' + source.url + '" : ' + error); } });
+
+
+            // prepare jqxChart settings
+
+
+            var settings = {
+                title: "CUADRO DE ABONO A IPRESS EN EL ULTIMA CONCILIACION",
+                description: "Monto de Abono X Millones",
+                enableAnimations: true,
+                showLegend: true,
+                padding: { left: 5, top: 5, right: 5, bottom: 5 },
+                titlePadding: { left: 90, top: 0, right: 0, bottom: 10 },
+                source: dataAdapter,
+                //url: '/Reportes/ObtenerReporChartabodeb',
+                xAxis:
+                    {
+                        dataField: 'ipress',
+                        showGridLines: true,
+                        displayText: 'IPRESS'
+                    },
+                colorScheme: 'scheme01',
+                seriesGroups:
+                    [
+                        {
+                            type: 'column',
+                            columnsGapPercent: 50,
+                            seriesGapPercent: 0,
+                            valueAxis:
+                            {
+                                unitInterval: 10,
+                                minValue: 0,
+                                maxValue: 'auto',
+                                displayValueAxis: true,
+                                description: 'Abono Millones',
+                                axisSize: 'auto',
+                                tickMarksColor: '#888888'
+                            },
+                            series: [
+                                    { dataField: 'abono', displayText: 'Abono', showLabels: true },
+                                    { dataField: 'debito', displayText: 'Debito', showLabels: true }
+                            ]
+                        }
+                    ]
+            };
+
+            // setup the chart
+           // $('#jqxChart').jqxChart(settings);
+
+
+            $("#resultado").jqxGrid({
+                width: '100%',
+
+                theme: 'arctic',
+                sortable: true,
+                showaggregates: true,
+                showstatusbar: true,
+                pageable: true,
+                autoheight: true,
+                columnsresize: true,
+                showfilterrow: true,
+                filterable: true,
+                selectionmode: 'multiplecellsextended',
+                columns: [
+                    { text: "<b>CONCILIACION", filtertype: 'checkedlist', datafield: "codigoconciliacion", width: 50, cellsalign: 'center', align: 'center' },
+                    {
+                        text: "<b>IPRESS", filtertype: 'checkedlist', datafield: "nombipress", width: '9%', height: 50, aggregatesrenderer: function (aggregates, column, element) {
+                            var renderstring = "<br/><center><b>Totales</b></center>";
+                            return renderstring;
+                        }
+                    },
+                    { text: "<b>PRODUCTO</b>", filtertype: 'checkedlist', datafield: "desccadena",  cellsalign: 'left', align: 'center' }, {
+                        text: "<b>TRANSFERENCIA", datafield: "abono", width: '12%', cellsalign: 'right', align: 'center', aggregates: ['sum'], columngroup: 'total', cellsformat: 'd0', sorttype: "float", formatter: "number", summaryType: 'sum', aggregatesrenderer: function (aggregates, column, element) {
+                            var renderstring = "<br/><b>S/. ";
+                            var total = "";
+                            $.each(aggregates, function (key, value) {
+                                total = value;
+                            });
+                            return renderstring + total + "</b>";
+                        }
+                    }, {
+                        text: "<b>PRODUCCION", datafield: "debito",cellsalign: 'right', align: 'center', aggregates: ['sum'], columngroup: 'total', cellsformat: 'd0', aggregatesrenderer: function (aggregates, column, element) {
+                            var renderstring = "<br/><b>S/. ";
+                            var total = "";
+                            $.each(aggregates, function (key, value) {
+                                total = value;
+                            });
+                            return renderstring + total + "</b>";
+                        }
+                    }, {
+                        text: "<b>NO CONSUMIDO", datafield: "sinicial", cellsalign: 'right', align: 'center', aggregates: ['sum'], columngroup: 'dentro', cellsformat: 'd0', aggregatesrenderer: function (aggregates, column, element) {
+                            var renderstring = "<br/><b>S/. ";
+                            var total = "";
+                            $.each(aggregates, function (key, value) {
+                                total = value;
+                            });
+                            return renderstring + total + "</b>";
+                        }
+                    },/* {
+                        text: "<b>R (+) ", datafield: "rpositiva", cellsalign: 'right', align: 'center', aggregates: ['sum'], columngroup: 'dentro', cellsformat: 'd0', aggregatesrenderer: function (aggregates, column, element) {
+                            var renderstring = "<br/><b>S/. ";
+                            var total = "";
+                            $.each(aggregates, function (key, value) {
+                                total = value;
+                            });
+                            return renderstring + total + "</b>";
+                        }
+                    }, {
+                        text: "<b>R (-)", datafield: "rnegativa", cellsalign: 'right', align: 'center', aggregates: ['sum'], columngroup: 'dentro', cellsformat: 'd0', aggregatesrenderer: function (aggregates, column, element) {
+                            var renderstring = "<br/><b>S/. ";
+                            var total = "";
+                            $.each(aggregates, function (key, value) {
+                                total = value;
+                            });
+                            return renderstring + total + "</b>";
+                        }
+                    }, */{
+                        text: "<b>MONTO POR REASIGNAR", datafield: "reasignacion",cellsalign: 'right', align: 'center', aggregates: ['sum'], columngroup: 'fuera', cellsformat: 'd0', aggregatesrenderer: function (aggregates, column, element) {
+                            var renderstring = "<br/><b>S/. ";
+                            var total = "";
+                            $.each(aggregates, function (key, value) {
+                                total = value;
+                            });
+                            return renderstring + total + "</b>";
+                        }
+                    }, {
+                        text: "<b>MONTO DISPONIBLE", datafield: "sfinal",cellsalign: 'right', align: 'center', aggregates: ['sum'], columngroup: 'fuera', cellsformat: 'd0', aggregatesrenderer: function (aggregates, column, element) {
+                            var renderstring = "<br/><b>S/. ";
+                            var total = "";
+                            $.each(aggregates, function (key, value) {
+                                total = value;
+                            });
+                            return renderstring + total + "</b>";
+                        }
+                    }
+                ],
+                groups: ['codigoconciliacion', 'nombipress']
+
+            });
+
+            // Create jqxTabs.
+            $('#jqxTabs').jqxTabs({ width: '99%', height: 500, position: 'top' });
+
+            var sampleDataGra = [
+                    { Day: 'Monday', Keith: 30, Erica: -15, George: 25 },
+                    { Day: 'Tuesday', Keith: 25, Erica: -25, George: 30 },
+                    { Day: 'Wednesday', Keith: 30, Erica: 20, George: 25 },
+                    { Day: 'Thursday', Keith: 35, Erica: 25, George: 45 },
+                    { Day: 'Friday', Keith: 20, Erica: 20, George: 25 },
+                    { Day: 'Saturday', Keith: 30, Erica: 20, George: 30 },
+                    { Day: 'Sunday', Keith: 60, Erica: 45, George: 90 }
+            ];
+
+
+            var sourceIress = {
+                datatype: "json",
+                data: { op: 1},
+                datafields: [
+                    { name: 'codigo', type: 'string' },
+                    { name: 'valor', type: 'string' }
+                ],
+                url: '/Reportes/ObtenerCombos'
+            };
+            var sourceConci = {
+                datatype: "json",
+                data: { op: 3 },
+                datafields: [
+                    { name: 'codigo', type: 'string' },
+                    { name: 'valor', type: 'string' }
+                ],
+                url: '/Reportes/ObtenerCombos'
+            };
+            var sourceCadena = {
+                datatype: "json",
+                data: { op: 2 },
+                datafields: [
+                    { name: 'codigo', type: 'string' },
+                    { name: 'valor', type: 'string' }
+                ],
+                url: '/Reportes/ObtenerCombos'
+            };
+            var adapterIpres = new $.jqx.dataAdapter(sourceIress);
+            var adapterConc = new $.jqx.dataAdapter(sourceConci);
+            var adapterCadena = new $.jqx.dataAdapter(sourceCadena)
+                               
+            var adapterIpresAtenciones = new $.jqx.dataAdapter(sourceIress);
+            
+            var adapterConcAteciones = new $.jqx.dataAdapter(sourceConci)
+
+
+            var sourceChart = {
+                datatype: "json",
+                datafields: [
+                    { name: 'codigoconciliacion', type: 'number' },
+                    { name: 'nombipress', type: 'string' },
+                    { name: 'abono', type: 'number' },
+                    { name: 'debito', type: 'number' },
+                    { name: 'reasignacion', type: 'number' },
+                    { name: 'sfinal', type: 'number' },
+                    { name: 'ipress', type: 'string' }
+                ],
+                url: '/Reportes/ObtenerReporteConciliacionChart'
+            };
+
+            var adapterGrafica = new $.jqx.dataAdapter(sourceChart);
+
+            // prepare jqxChart settings
+            var settingsGra = {
+                title: "Resumen Gestion de Cuenta",
+                description: "",
+                enableAnimations: true,
+                showLegend: true,
+                padding: { left: 20, top: 5, right: 20, bottom: 5 },
+                titlePadding: { left: 90, top: 0, right: 0, bottom: 10 },
+               // source: adapterGrafica,
+                xAxis:
+                    {
+                        dataField: 'ipress',
+                        gridLines: { visible: true },
+                        labels: { horizontalAlignment: 'right', angle: '90' }
+                    },
+                //colorScheme: 'scheme01',
+                valueAxis:
+                {
+                    unitInterval: 10,
+                    minValue: 'auto',
+                    maxValue: 'auto',
+                    displayValueAxis: true,
+                    description: 'Abono Millones',
+                    axisSize: 'auto',
+                    tickMarksColor: '#888888',
+                    
+                    
+                },
+                seriesGroups:
+                    [
+                        {
+                            type: 'column',
+                            orientation: 'horizontal',
+                            columnsGapPercent: 50,
+                            toolTipFormatSettings: { sufix: ' Millones' },
+                            seriesGapPercent: 0,
+
+                            series: [
+                                    { dataField: 'abono', displayText: 'Transferido' },
+                                    { dataField: 'debito', displayText: 'Produccion'},
+                                    { dataField: 'reasignacion', displayText: 'Monto por Reasignar' },
+                                    { dataField: 'sfinal', displayText: 'Monto Disponible'}
+                                    
+                            ]
+                        }
+                    ]
+            };
+
+
+            var settingsGraAtenciones = {
+                title: "Total de Atendidos",
+                description: "Total de Atenciones",
+                enableAnimations: true,
+                showLegend: true,
+                padding: { left: 10, top: 10, right: 15, bottom: 10 },
+                titlePadding: { left: 90, top: 0, right: 0, bottom: 10 },
+                // source: adapterGrafica,
+                colorScheme: 'scheme05',
+                
+                xAxis: {
+                    dataField: 'anio',
+                    unitInterval: 1,
+                    tickMarks: { visible: true, interval: 1 },
+                    gridLinesInterval: { visible: true, interval: 1 },
+                    valuesOnTicks: false,
+                    padding: { bottom: 10 }
+                },
+                valueAxis: {
+                    //unitInterval: 5000,
+                    minValue: 0,
+                    maxValue: 'auto',
+                    logarithmicScaleBase: true,
+                    logarithmicScaleBase: 5,
+                    title: { text: 'Total por Miles<br><br>' },
+                    formatFunction: function (value) {
+                        if(value>=1000)
+                            return value / 1000 + 'M';
+                        if (value >= 1000000)
+                            return value / 1000000 + 'K';
+                    },
+                    labels:
+                    {
+                        horizontalAlignment: 'right',
+                        //formatSettings:
+                        //{
+                        //    sufix: 'K'
+                        //}
+                    }
+                },
+               
+                seriesGroups:
+                    [
+                        {
+                            type: 'line',
+                           
+                            formatSettings: { thousandsSeparator: ',' },
+                            series:
+                            [
+                                {
+                                    dataField: 'atenciones',
+                                    displayText: 'Atenciones',
+                                    //symbolType: 'Atenciones',
+                                    formatSettings: { thousandsSeparator: ',' },
+                                    toolTipFormatFunction: function (value, itemIndex, serie, group, xAxisValue, xAxis) {
+                             
+                                        var formattedTooltip = "<div>" +
+                                            "<b>Año: </b>" + xAxisValue + "</br>" +
+                                            "<b>Atenciones: </b>" + value + "</br>" +
+                                            "</div>";
+                                        return formattedTooltip;
+                                    },
+                                    labels:
+                                    {
+                                        visible: true,
+                                        backgroundColor: '#FEFEFE',
+                                        backgroundOpacity: 0.2,
+                                        borderColor: '#7FC4EF',
+                                        borderOpacity: 0.7,
+                                        padding: { left: 5, right: 5, top: 0, bottom: 0 }
+                                    }
+                                },
+                                {
+                                    dataField: 'atendidos',
+                                    displayText: 'Atendidos',
+                                    symbolType: 'Atendidos',
+                                    toolTipFormatFunction: function (value, itemIndex, serie, group, xAxisValue, xAxis) {
+
+                                        var formattedTooltip = "<div>" +
+                                            "<b>Año: </b>" + xAxisValue + "</br>" +
+                                            "<b>Atendidos: </b>" + value + "</br>" +
+                                            "</div>";
+                                        return formattedTooltip;
+                                    },
+                                    labels:
+                                    {
+                                        visible: true,
+                                        backgroundColor: '#FEFEFE',
+                                        backgroundOpacity: 0.2,
+                                        borderColor: '#7FC4EF',
+                                        borderOpacity: 0.7,
+                                        padding: { left: 5, right: 5, top: 0, bottom: 0 }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+            };
+            // setup the chart
+            $('#jqxChartGra').jqxChart(settingsGra);
+            
+            $('#atenciones').jqxChart(settingsGraAtenciones);
+
+
+
+            // Combo
+            $("#cmbIpres").jqxDropDownList({ checkboxes: true, placeHolder:'Ipress', source: adapterIpres, displayMember: "valor", valueMember: "codigo", width: 350, height: 25 });
+
+            $("#cmbConciliacion").jqxDropDownList({ checkboxes: true, placeHolder: 'Conciliacion', source: adapterConc, displayMember: "valor", valueMember: "codigo", width: 150, height: 25 });
+
+           // $("#cmbCadena").jqxDropDownList({ checkboxes: true, source: adapterCadena, placeHolder: 'Producto', displayMember: "valor", valueMember: "codigo", width: 250, height: 25 });
+
+
+            $("#cmbIpresAtenciones").jqxDropDownList({ checkboxes: true, placeHolder: 'Ipress', source: adapterIpresAtenciones, displayMember: "valor", valueMember: "codigo", width: 350, height: 25 });
+
+            $("#cmbConAtenciones").jqxDropDownList({ checkboxes: true, placeHolder: 'Conciliacion', source: adapterConcAteciones, displayMember: "valor", valueMember: "codigo", width: 150, height: 25 });
+
+           
+            $("#cmbIpresAtenciones").on('checkChange', function (event) {
+                if (event.args) {
+                    var item = event.args.item;
+                    if (item) {
+
+                        OnObtenerAtenciones();
+
+                    }
+                }
+            });
+
+            $("#cmbConAtenciones").on('checkChange', function (event) {
+                if (event.args) {
+                    var item = event.args.item;
+                    if (item) {
+
+                        OnObtenerAtenciones();
+
+                    }
+                }
+            });
+            $("#cmbIpres").on('checkChange', function (event) {
+                if (event.args) {
+                    var item = event.args.item;
+                    if (item) {
+
+                        OnObtenerIpres();
+
+                    }
+                }
+            });
+         
+            $("#cmbConciliacion").on('checkChange', function (event) {
+                if (event.args) {
+                    var item = event.args.item;
+                    if (item) {
+                        
+                        OnObtenerIpres();
+
+                    }
+                }
+            });
+
+          /*  $("#cmbCadena").on('checkChange', function (event) {
+                if (event.args) {
+                    var item = event.args.item;
+                    if (item) {
+                       
+                        OnObtenerIpres();
+                       
+
+                    }
+                }
+            });
+           */
+
+            OnObtenerIpres();
+            OnObtenerAtenciones();
+            OnObtenerReporte($("#ddlAnio").val());
+            
+            
+
+            $('#clearfilteringbutton').jqxButton({ height: 25 });
+            $('#clearfilteringbutton').click(function () {
+                $("#resultado").jqxGrid('clearfilters');
+            });
+
+            $("#pdfButton").jqxButton({});
+
+           /* $("#pdfButton").click(function () {
+                $('#jqxChart').jqxChart('saveAsPDF', 'myChart.pdf', getExportServer());
+            });*/
+            
+        });
+        function getExportServer() {
+            return 'http://www.jqwidgets.com/export_server/export.php';
+        }
+        function OnObtenerReporte(e) {
+
+
+            var source = {
+                datatype: "json",
+                data: { numconc: 1 },
+                datafields: [
+                    { name: 'codigoconciliacion', type: 'number' },
+                    { name: 'nombipress', type: 'string' },
+                    { name: 'desccadena', type: 'string' },
+                    { name: 'abono', type: 'number' },
+                    { name: 'debito', type: 'number' },
+                    { name: 'sinicial', type: 'number' },
+                    { name: 'rpositiva', type: 'number' },
+                    { name: 'rnegativa', type: 'number' },
+                    { name: 'reasignacion', type: 'number' },
+                    { name: 'sfinal', type: 'number' }
+                ],
+                url: '/Reportes/ObtenerReporteConciliacion'
+            };
+            var dataAdapter = new $.jqx.dataAdapter(source);
+            $("#resultado").jqxGrid({ source: dataAdapter, height: 50 });
+
+            e.preventDefault();
+        }
+        function OnObtenerIpres() {
+
+            var _ipress = $("#cmbIpres").val();
+            var _numconc = $("#cmbConciliacion").val();
+           // var _cadena = $("#cmbCadena").val();
+            
+            var _sourceChart = {
+                datatype: "json",
+                data: { numconc: _numconc, ipress: _ipress, cadena: '' },
+                datafields: [
+                    { name: 'codigoconciliacion', type: 'number' },
+                    { name: 'nombipress', type: 'string' },
+                    { name: 'abono', type: 'number' },
+                    { name: 'debito', type: 'number' },
+                    { name: 'reasignacion', type: 'number' },
+                    { name: 'sfinal', type: 'number' },
+                    { name: 'ipress', type: 'string' }
+                ],
+                url: '/Reportes/ObtenerReporteConciliacionChart'
+            };
+            var _adapterGrafica = new $.jqx.dataAdapter(_sourceChart);
+            var chart = $('#jqxChartGra').jqxChart({source:_adapterGrafica});
+  
+        }
+        function OnObtenerAtenciones() {
+
+            var _ipress = $("#cmbIpresAtenciones").val();
+            var _numconc = $("#cmbConAtenciones").val();
+
+ 
+            var _sourceChartA = {
+                datatype: "json",
+                data: { idipres: _ipress, numconc: _numconc },
+                datafields: [
+                    { name: 'anio', type: 'string' },
+                    { name: 'atenciones', type: 'number' },
+                    { name: 'atendidos', type: 'number' }
+                ],
+                url: '/Reportes/ObtenerReporAtendidos'
+            };
+            var _adapterGraficaA = new $.jqx.dataAdapter(_sourceChartA);
+            var chart = $('#atenciones').jqxChart({ source: _adapterGraficaA });
+
+        }
+
+
+
+    </script>
+}
+<h3 style="text-align:center">Reporte Conciliacion</h3>
+<br />
+@using (Html.BeginForm("ExportarConcilacion", "Reportes"))
+{
+    <div id='jqxTabs'>
+        <ul style='margin-left: 30px;'>
+            <li style="margin-left: 30px;">
+                <div style="height: 20px; margin-top: 5px;">
+                    <div style="margin-left: 4px; vertical-align: middle; text-align: center; float: left;">
+                        <b>Reporte Gestión Cuenta</b>
+                    </div>
+                </div>
+            </li>
+            <li><b>Resumen Gestión Cuenta</b></li>
+            <li><b>Resumen de Atenciones</b></li>
+        </ul>
+        
+        <div>
+            <div style='height: 40px; width: 100%;'>
+                <div style='height: 50px;'>
+                    
+                    <table border="0" width="100%">
+                        <tr>
+                        <td>
+                            <div style='margin-top: 10px;'>
+                                <input style='float: left;width:50%; margin-left: 5px;' type="submit" value="Exportar Cuadro a Excel" />
+
+                            </div>
+                        </td>
+                        
+                        </tr>
+                        <tr>
+                            <td><div id="resultado" style='height: 40px; width: 100%;'>
+
+                    </div></td>
+
+                        </tr>
+
+                    </table>
+                    
+
+                  
+
+                </div>
+
+            </div>
+
+
+        </div>
+        <div>
+            <div style='height: 100%; width: 100%;'>
+           
+                    <div style='height: 90%; '>
+
+                        <table style="height: 20px;">
+
+                            <tr>
+                                <td><div id='cmbConciliacion'></div>  </td>
+                                <td><div id='cmbIpres'></div>  </td>
+                               
+
+                            </tr>
+
+
+                        </table>
+
+                        <div id='jqxChartGra' style="margin-top: 0px; width: 100%; height: 100%; position: relative; left: 0px; top: 0px;">
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+        </div>
+        <div>
+            <div style='height: 200px; width: 100%;'>
+        
+                <div style='height: 200px;'>
+                    <table style="height: 20px;">
+                        <tr>
+                            <td><div id='cmbConAtenciones'></div>  </td>
+                            <td><div id='cmbIpresAtenciones'></div>  </td>
+                            
+                            
+                        </tr>
+
+
+                    </table>
+                    <div id='atenciones' style="width: 100%; height: 400px;">
+                </div>
+                </div>
+
+            </div>
+
+
+        </div>
+    
+      
+    </div>
+
+
+
+
+
+
+}

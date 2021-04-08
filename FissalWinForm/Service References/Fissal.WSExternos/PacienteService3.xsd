@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://fissal.gob.pe/wspaciente/" elementFormDefault="qualified" targetNamespace="http://fissal.gob.pe/wspaciente/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://www.fissal.gob.pe/wsphronesis/paciente/PacienteService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/FissalSWSExternos" />
+  <xs:import schemaLocation="http://www.fissal.gob.pe/wsphronesis/paciente/PacienteService.svc?xsd=xsd3" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <xs:element name="ConsultarPaciente">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/FissalSWSExternos" minOccurs="0" name="credencial" nillable="true" type="q1:CredencialServicio" />
+        <xs:element minOccurs="0" name="tipoDocumentoId" type="xs:int" />
+        <xs:element minOccurs="0" name="numeroDocumento" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="establecimientoId" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ConsultarPacienteResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/FissalSWSExternos" minOccurs="0" name="ConsultarPacienteResult" nillable="true" type="q2:PacienteRespuesta" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerPacientes">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/FissalSWSExternos" minOccurs="0" name="credencial" nillable="true" type="q3:CredencialServicio" />
+        <xs:element minOccurs="0" name="establecimientoId" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerPacientesResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/FissalSWSExternos" minOccurs="0" name="ObtenerPacientesResult" nillable="true" type="q4:PacienteRespuesta" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ActualizarAutorizaciones">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/FissalSWSExternos" minOccurs="0" name="credencial" nillable="true" type="q5:CredencialServicio" />
+        <xs:element xmlns:q6="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="autorizaciones" nillable="true" type="q6:ArrayOfint" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ActualizarAutorizacionesResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ActualizarAutorizacionesResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerAutorizaciones">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q7="http://schemas.datacontract.org/2004/07/FissalSWSExternos" minOccurs="0" name="credencial" nillable="true" type="q7:CredencialServicio" />
+        <xs:element minOccurs="0" name="establecimientoId" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerAutorizacionesResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q8="http://schemas.datacontract.org/2004/07/FissalSWSExternos" minOccurs="0" name="ObtenerAutorizacionesResult" nillable="true" type="q8:PacienteRespuesta" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

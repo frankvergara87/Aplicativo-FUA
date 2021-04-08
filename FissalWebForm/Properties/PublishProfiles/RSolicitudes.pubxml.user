@@ -1,0 +1,778 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+Este archivo es utilizado por el proceso de paquete/publicación de nuestro proyecto Web. Puede personalizar el comportamiento de este proceso
+editando este archivo MSBuild. Para conocer más acerca de esto, visite http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\fvergara\Desktop\WEB REGISTRO SOLICITUDES\Publicacion [03.06.2015]</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="Autorizaciones/FrmRegistroAutorizaciones.aspx">
+      <publishTime>05/20/2015 11:38:12</publishTime>
+    </File>
+    <File Include="bin/FissalBE.dll">
+      <publishTime>06/03/2015 17:35:25</publishTime>
+    </File>
+    <File Include="bin/FissalBL.dll">
+      <publishTime>06/03/2015 17:35:26</publishTime>
+    </File>
+    <File Include="bin/FissalDA.dll">
+      <publishTime>06/03/2015 17:35:26</publishTime>
+    </File>
+    <File Include="bin/FissalWebForm.dll">
+      <publishTime>06/03/2015 17:35:26</publishTime>
+    </File>
+    <File Include="bin/ICSharpCode.SharpZipLib.dll">
+      <publishTime>05/20/2015 11:38:18</publishTime>
+    </File>
+    <File Include="bin/NPOI.dll">
+      <publishTime>05/20/2015 11:38:18</publishTime>
+    </File>
+    <File Include="bin/NPOI.OOXML.dll">
+      <publishTime>05/20/2015 11:38:18</publishTime>
+    </File>
+    <File Include="bin/NPOI.OpenXml4Net.dll">
+      <publishTime>05/20/2015 11:38:18</publishTime>
+    </File>
+    <File Include="bin/NPOI.OpenXmlFormats.dll">
+      <publishTime>05/20/2015 11:38:19</publishTime>
+    </File>
+    <File Include="css/animate-custom.css">
+      <publishTime>05/20/2015 11:38:12</publishTime>
+    </File>
+    <File Include="css/bootstrap.css">
+      <publishTime>05/20/2015 11:38:12</publishTime>
+    </File>
+    <File Include="css/EstiloMenu.css">
+      <publishTime>05/20/2015 11:38:12</publishTime>
+    </File>
+    <File Include="css/estiloscontroles.css">
+      <publishTime>05/20/2015 11:38:12</publishTime>
+    </File>
+    <File Include="css/Formularios.css">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="css/login.css">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="css/menu.css">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="css/style.css">
+      <publishTime>05/20/2015 11:41:20</publishTime>
+    </File>
+    <File Include="css/styleAdmin.css">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="css/styleFormLogin.css">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="css2/base.css">
+      <publishTime>05/20/2015 11:41:20</publishTime>
+    </File>
+    <File Include="css2/layout.css">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="css2/skeleton.css">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Error/Error.aspx">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Error/Error_404.aspx">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Error/Error_408.aspx">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Error/Error_503.aspx">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="FrmLogin.aspx">
+      <publishTime>05/20/2015 11:41:17</publishTime>
+    </File>
+    <File Include="FrmMantenimiento.aspx">
+      <publishTime>05/20/2015 11:38:12</publishTime>
+    </File>
+    <File Include="FrmMantUsuario.aspx">
+      <publishTime>05/20/2015 11:38:12</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>05/20/2015 11:38:12</publishTime>
+    </File>
+    <File Include="Home/Home.aspx">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/1396604830_document_pdf.png">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/1396604889_MetroUI_Word.png">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/1396604919_MetroUI_Excel.png">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/1396945737_exclamation-circle-frame_basic_red.png">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/abril.png">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/abrilb.png">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/abrilc.png">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/agosto.png">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/agostob.png">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/agostoc.png">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/ampliarbtn.png">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/archivo-notas.png">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/arrows.png">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/back.png">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/background.png">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/bg.jpg">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/bgbloquelinkl.png">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/bgbloques.png">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/bgbloquesmall.png">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/bginforight.jpg">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/bginforight.png">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/bg_descripcion.png">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/bg_header.jpg">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/bg_menu.jpg">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/bg_menu100.jpg">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/bg_menu_hover.jpg">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/bg_menu_hover100.jpg">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/bg_pattern.jpg">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/blurry.jpg">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/botleft.png">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/botones.png">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/botright.png">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/brochoure3.jpg">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/brochoure4.jpg">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/btn_white.png">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/bx_loader.gif">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/calcular.png">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/calendario.png">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/CENTRAL.jpg">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/central.png">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/cerrar_sesion.png">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/contador.jpg">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/ControlUsuario/ico.ico">
+      <publishTime>05/20/2015 11:38:14</publishTime>
+    </File>
+    <File Include="Images/ControlUsuario/user.png">
+      <publishTime>05/20/2015 11:38:14</publishTime>
+    </File>
+    <File Include="Images/conv_cas.png">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/correo.jpg">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/correo.png">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/descargar.png">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/diciembre.png">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/diciembreb.png">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/diciembrec.png">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/difusion.jpg">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/download.png">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/downloadwhite.png">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/edit.png">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/ejemplo.jpg">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/ejemplocalendar.jpg">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/enero.png">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/enerob.png">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/eneroc.png">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/equipo-tecnico.png">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/espera.gif">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/esperanza-hover.png">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/esperanza.png">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/facebook.jpg">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/facebook.png">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/fb-hover.png">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/fb.png">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/febrero.png">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/febrerob.png">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/febreroc.png">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/fissal.ico">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/fissal_iso.png">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/fissal_iso100.png">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/foot-enlaces.png">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/foot-info.png">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/foot-notvid.png">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/form_bg.jpg">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/foto-ejemplo.jpg">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/foto_seccion_prev.jpg">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/foto_seccion_prev2.jpg">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/foto_seccion_prev3.jpg">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/foto_seccion_prev4.jpg">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/gradback.png">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/gradhead.png">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/gradhover.png">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/Grilla.Flecha.gif">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/Grilla_Eliminar.gif">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/Grilla_Seleccionar.gif">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/header-enlaces-contactt.png">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/header-enlaces.png">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/header-info-des.png">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/header-info.png">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/header-notvid-desnot.png">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/header-notvid.png">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/header.jpg">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/infosalud.jpg">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/infosalud.png">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/info_contacto.png">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/info_inicio.png">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/info_minsa.png">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/julio.png">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/juliob.png">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/julioc.png">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/junio.png">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/juniob.png">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/junioc.png">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/left.png">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/logoexcel.png">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/logopdf.jpg">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/logoword.png">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/male_user_search-128.png">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/Mantenimiento/aproved.ico">
+      <publishTime>05/20/2015 11:38:15</publishTime>
+    </File>
+    <File Include="Images/Mantenimiento/delete.ico">
+      <publishTime>05/20/2015 11:38:15</publishTime>
+    </File>
+    <File Include="Images/Mantenimiento/denied.ico">
+      <publishTime>05/20/2015 11:38:15</publishTime>
+    </File>
+    <File Include="Images/Mantenimiento/Edit.ico">
+      <publishTime>05/20/2015 11:38:15</publishTime>
+    </File>
+    <File Include="Images/Mantenimiento/Edit1.ico">
+      <publishTime>05/20/2015 11:38:15</publishTime>
+    </File>
+    <File Include="Images/Mantenimiento/Edit2.ico">
+      <publishTime>05/20/2015 11:38:15</publishTime>
+    </File>
+    <File Include="Images/Mantenimiento/NoProcesado.ico">
+      <publishTime>05/20/2015 11:38:15</publishTime>
+    </File>
+    <File Include="Images/Mantenimiento/Ok.ico">
+      <publishTime>05/20/2015 11:38:15</publishTime>
+    </File>
+    <File Include="Images/Mantenimiento/Procesado.ico">
+      <publishTime>05/20/2015 11:38:15</publishTime>
+    </File>
+    <File Include="Images/Mantenimiento/Send.ico">
+      <publishTime>05/20/2015 11:38:15</publishTime>
+    </File>
+    <File Include="Images/Mantenimiento/tacho.ico">
+      <publishTime>05/20/2015 11:38:15</publishTime>
+    </File>
+    <File Include="Images/manual5.jpg">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/manual6.jpg">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/marzo.png">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/marzob.png">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/marzoc.png">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/mat-com-ejem.jpg">
+      <publishTime>05/20/2015 11:38:14</publishTime>
+    </File>
+    <File Include="Images/matcom.jpg">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/matcom2.jpg">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/matcom3.jpg">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/matcom4.jpg">
+      <publishTime>05/20/2015 11:38:14</publishTime>
+    </File>
+    <File Include="Images/matcom5.jpg">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/matcom6.jpg">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/mayo.png">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/mayob.png">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/mayoc.png">
+      <publishTime>05/20/2015 11:38:13</publishTime>
+    </File>
+    <File Include="Images/mef-hover.jpg">
+      <publishTime>05/20/2015 11:38:14</publishTime>
+    </File>
+    <File Include="Images/mef.jpg">
+      <publishTime>05/20/2015 11:38:14</publishTime>
+    </File>
+    <File Include="Images/minsa-hover.jpg">
+      <publishTime>05/20/2015 11:38:14</publishTime>
+    </File>
+    <File Include="Images/minsa.jpg">
+      <publishTime>05/20/2015 11:38:14</publishTime>
+    </File>
+    <File Include="Images/minsa_iso.png">
+      <publishTime>05/20/2015 11:38:14</publishTime>
+    </File>
+    <File Include="Images/minsa_logo.png">
+      <publishTime>05/20/2015 11:38:14</publishTime>
+    </File>
+    <File Include="Images/not-ejemplo.jpg">
+      <publishTime>05/20/2015 11:38:14</publishTime>
+    </File>
+    <File Include="Images/notejemploseccion1.jpg">
+      <publishTime>05/20/2015 11:38:14</publishTime>
+    </File>
+    <File Include="Images/notejemploseccion2.jpg">
+      <publishTime>05/20/2015 11:38:14</publishTime>
+    </File>
+    <File Include="Images/noviembre.png">
+      <publishTime>05/20/2015 11:38:14</publishTime>
+    </File>
+    <File Include="Images/noviembreb.png">
+      <publishTime>05/20/2015 11:38:14</publishTime>
+    </File>
+    <File Include="Images/noviembrec.png">
+      <publishTime>05/20/2015 11:38:14</publishTime>
+    </File>
+    <File Include="Images/octubre.png">
+      <publishTime>05/20/2015 11:38:14</publishTime>
+    </File>
+    <File Include="Images/octubreb.png">
+      <publishTime>05/20/2015 11:38:14</publishTime>
+    </File>
+    <File Include="Images/octubrec.png">
+      <publishTime>05/20/2015 11:38:14</publishTime>
+    </File>
+    <File Include="Images/pattern-head.png">
+      <publishTime>05/20/2015 11:38:14</publishTime>
+    </File>
+    <File Include="Images/pattern.gif">
+      <publishTime>05/20/2015 11:38:14</publishTime>
+    </File>
+    <File Include="Images/pattern.png">
+      <publishTime>05/20/2015 11:38:14</publishTime>
+    </File>
+    <File Include="Images/patternb-head.png">
+      <publishTime>05/20/2015 11:38:14</publishTime>
+    </File>
+    <File Include="Images/patternb.png">
+      <publishTime>05/20/2015 11:38:14</publishTime>
+    </File>
+    <File Include="Images/peru-hover.jpg">
+      <publishTime>05/20/2015 11:38:14</publishTime>
+    </File>
+    <File Include="Images/peru.jpg">
+      <publishTime>05/20/2015 11:38:14</publishTime>
+    </File>
+    <File Include="Images/play_video_seccion.png">
+      <publishTime>05/20/2015 11:38:14</publishTime>
+    </File>
+    <File Include="Images/propuestacuadro.jpg">
+      <publishTime>05/20/2015 11:38:14</publishTime>
+    </File>
+    <File Include="Images/propuestacuadro.png">
+      <publishTime>05/20/2015 11:38:14</publishTime>
+    </File>
+    <File Include="Images/reforma-hover.jpg">
+      <publishTime>05/20/2015 11:38:14</publishTime>
+    </File>
+    <File Include="Images/reforma.jpg">
+      <publishTime>05/20/2015 11:38:14</publishTime>
+    </File>
+    <File Include="Images/right.png">
+      <publishTime>05/20/2015 11:38:14</publishTime>
+    </File>
+    <File Include="Images/rombo.png">
+      <publishTime>05/20/2015 11:38:14</publishTime>
+    </File>
+    <File Include="Images/save.gif">
+      <publishTime>05/20/2015 11:38:14</publishTime>
+    </File>
+    <File Include="Images/serv_civil.png">
+      <publishTime>05/20/2015 11:38:14</publishTime>
+    </File>
+    <File Include="Images/setiembre.png">
+      <publishTime>05/20/2015 11:38:14</publishTime>
+    </File>
+    <File Include="Images/setiembreb.png">
+      <publishTime>05/20/2015 11:38:14</publishTime>
+    </File>
+    <File Include="Images/setiembrec.png">
+      <publishTime>05/20/2015 11:38:14</publishTime>
+    </File>
+    <File Include="Images/sis-hover.jpg">
+      <publishTime>05/20/2015 11:38:14</publishTime>
+    </File>
+    <File Include="Images/sis.jpg">
+      <publishTime>05/20/2015 11:38:14</publishTime>
+    </File>
+    <File Include="Images/sis_logo.jpg">
+      <publishTime>05/20/2015 11:38:14</publishTime>
+    </File>
+    <File Include="Images/social.png">
+      <publishTime>05/20/2015 11:38:14</publishTime>
+    </File>
+    <File Include="Images/socialbottom/blogger.png">
+      <publishTime>05/20/2015 11:38:15</publishTime>
+    </File>
+    <File Include="Images/socialbottom/digg.png">
+      <publishTime>05/20/2015 11:38:15</publishTime>
+    </File>
+    <File Include="Images/socialbottom/facebook.png">
+      <publishTime>05/20/2015 11:38:15</publishTime>
+    </File>
+    <File Include="Images/socialbottom/feed.png">
+      <publishTime>05/20/2015 11:38:15</publishTime>
+    </File>
+    <File Include="Images/socialbottom/google.png">
+      <publishTime>05/20/2015 11:38:15</publishTime>
+    </File>
+    <File Include="Images/socialbottom/myspace.png">
+      <publishTime>05/20/2015 11:38:15</publishTime>
+    </File>
+    <File Include="Images/socialbottom/Thumbs.db">
+      <publishTime>05/20/2015 11:38:15</publishTime>
+    </File>
+    <File Include="Images/socialbottom/twitter.png">
+      <publishTime>05/20/2015 11:38:15</publishTime>
+    </File>
+    <File Include="Images/socialbtn.jpg">
+      <publishTime>05/20/2015 11:38:14</publishTime>
+    </File>
+    <File Include="Images/Thumbs.db">
+      <publishTime>05/20/2015 11:38:14</publishTime>
+    </File>
+    <File Include="Images/tit-enlaces1.png">
+      <publishTime>05/20/2015 11:38:14</publishTime>
+    </File>
+    <File Include="Images/tit-enlaces2.png">
+      <publishTime>05/20/2015 11:38:14</publishTime>
+    </File>
+    <File Include="Images/tit-enlaces3.png">
+      <publishTime>05/20/2015 11:38:14</publishTime>
+    </File>
+    <File Include="Images/tit-info1.png">
+      <publishTime>05/20/2015 11:38:14</publishTime>
+    </File>
+    <File Include="Images/tit-info2.png">
+      <publishTime>05/20/2015 11:38:14</publishTime>
+    </File>
+    <File Include="Images/titnot.png">
+      <publishTime>05/20/2015 11:38:14</publishTime>
+    </File>
+    <File Include="Images/titvid.png">
+      <publishTime>05/20/2015 11:38:14</publishTime>
+    </File>
+    <File Include="Images/triptico2.jpg">
+      <publishTime>05/20/2015 11:38:14</publishTime>
+    </File>
+    <File Include="Images/vermasnot.png">
+      <publishTime>05/20/2015 11:38:14</publishTime>
+    </File>
+    <File Include="Images/vermasvid.jpg">
+      <publishTime>05/20/2015 11:38:14</publishTime>
+    </File>
+    <File Include="Images/vermasvid.png">
+      <publishTime>05/20/2015 11:38:14</publishTime>
+    </File>
+    <File Include="Images/video-ejm.png">
+      <publishTime>05/20/2015 11:38:14</publishTime>
+    </File>
+    <File Include="Images/volante1.jpg">
+      <publishTime>05/20/2015 11:38:14</publishTime>
+    </File>
+    <File Include="Images2/bg.jpg">
+      <publishTime>05/20/2015 11:38:15</publishTime>
+    </File>
+    <File Include="Images2/bg2.jpg">
+      <publishTime>05/20/2015 11:38:15</publishTime>
+    </File>
+    <File Include="Images2/bg_form.jpg">
+      <publishTime>05/20/2015 11:38:15</publishTime>
+    </File>
+    <File Include="Images2/close-hover.png">
+      <publishTime>05/20/2015 11:38:15</publishTime>
+    </File>
+    <File Include="Images2/close.png">
+      <publishTime>05/20/2015 11:38:15</publishTime>
+    </File>
+    <File Include="Images2/form-bg.png">
+      <publishTime>05/20/2015 11:38:15</publishTime>
+    </File>
+    <File Include="img/login-bg.png">
+      <publishTime>05/20/2015 11:38:15</publishTime>
+    </File>
+    <File Include="img/LogoFissal.png">
+      <publishTime>05/20/2015 11:38:15</publishTime>
+    </File>
+    <File Include="js/bootstrap.min.js">
+      <publishTime>05/20/2015 11:38:15</publishTime>
+    </File>
+    <File Include="js/jquery-1.9.1.min.js">
+      <publishTime>05/20/2015 11:38:15</publishTime>
+    </File>
+    <File Include="js/jquery.center.js">
+      <publishTime>05/20/2015 11:38:15</publishTime>
+    </File>
+    <File Include="js/jquery.min.js">
+      <publishTime>05/20/2015 11:38:15</publishTime>
+    </File>
+    <File Include="js/placeholder-shim.min.js">
+      <publishTime>05/20/2015 11:38:15</publishTime>
+    </File>
+    <File Include="js2/app.js">
+      <publishTime>05/20/2015 11:38:15</publishTime>
+    </File>
+    <File Include="js2/jquery-1.5.1.min.js">
+      <publishTime>05/20/2015 11:38:15</publishTime>
+    </File>
+    <File Include="js2/script.js">
+      <publishTime>05/20/2015 11:38:15</publishTime>
+    </File>
+    <File Include="PageMaster.Master">
+      <publishTime>05/20/2015 11:41:19</publishTime>
+    </File>
+    <File Include="Service References/ServiceReference1/FissalWebForm.ServiceReference1.BuscarAseguradosDocIdentResponse.datasource">
+      <publishTime>05/20/2015 11:38:15</publishTime>
+    </File>
+    <File Include="Service References/ServiceReference1/FissalWebForm.ServiceReference1.BuscarDNI_BResponse.datasource">
+      <publishTime>05/20/2015 11:38:15</publishTime>
+    </File>
+    <File Include="Solicitudes/FrmMantSolicitud.aspx">
+      <publishTime>05/20/2015 11:41:22</publishTime>
+    </File>
+    <File Include="Solicitudes/FrmRegistroSolicitud.aspx">
+      <publishTime>06/02/2015 20:18:03</publishTime>
+    </File>
+    <File Include="Solicitudes/FrmReporteSolicitudes.aspx">
+      <publishTime>05/28/2015 10:32:38</publishTime>
+    </File>
+    <File Include="Solicitudes/FrmSolicitudDetalle.aspx">
+      <publishTime>05/20/2015 11:38:15</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>06/03/2015 17:35:27</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:1489/PacienteService/PacienteService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/FissalSWSExternos" />
+  <xs:element name="ConsultarPaciente">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/FissalSWSExternos" minOccurs="0" name="credencial" nillable="true" type="q1:CredencialServicio" />
+        <xs:element minOccurs="0" name="tipoDocumentoId" type="xs:int" />
+        <xs:element minOccurs="0" name="numeroDocumento" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="establecimientoId" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ConsultarPacienteResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/FissalSWSExternos" minOccurs="0" name="ConsultarPacienteResult" nillable="true" type="q2:PacienteRespuesta" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

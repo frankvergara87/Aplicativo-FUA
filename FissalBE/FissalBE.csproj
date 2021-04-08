@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1FCE949D-12D1-4E64-8D7A-9AE8F9505847}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FissalBE</RootNamespace>
+    <AssemblyName>FissalBE</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Actividad.cs" />
+    <Compile Include="AdicionalProcedimiento.cs" />
+    <Compile Include="AdionalMedicamento.cs" />
+    <Compile Include="AtencionCierre.cs" />
+    <Compile Include="AtencionCierre_Consumos.cs" />
+    <Compile Include="AtencionCierre_Diagnosticos.cs" />
+    <Compile Include="Autorizacion.cs" />
+    <Compile Include="AutorizacionTerceros.cs" />
+    <Compile Include="AutorizacionTranferencia.cs" />
+    <Compile Include="CapituloCIE.cs" />
+    <Compile Include="CategoriaCIE.cs" />
+    <Compile Include="CategoriaObservacion.cs" />
+    <Compile Include="Comun.cs" />
+    <Compile Include="EstadoCuentaConciliacion.cs" />
+    <Compile Include="Produccion.cs" />
+    <Compile Include="ControlMedicoLog.cs" />
+    <Compile Include="DestinoAsegurado.cs" />
+    <Compile Include="DISA.cs" />
+    <Compile Include="Enfermedad.cs" />
+    <Compile Include="Esquema.cs" />
+    <Compile Include="EsquemaCategoria.cs" />
+    <Compile Include="EsquemaEstablecimiento.cs" />
+    <Compile Include="Establecimiento.cs" />
+    <Compile Include="EstablecimientoConvenio.cs" />
+    <Compile Include="Estadio.cs" />
+    <Compile Include="Fase.cs" />
+    <Compile Include="Finalidad.cs" />
+    <Compile Include="GrupoCIE.cs" />
+    <Compile Include="Institucion.cs" />
+    <Compile Include="LugarAtencion.cs" />
+    <Compile Include="Medicamento.cs" />
+    <Compile Include="Medico.cs" />
+    <Compile Include="MicroRed.cs" />
+    <Compile Include="MovimientoCuentaCierre.cs" />
+    <Compile Include="MovimientoMedicamento.cs" />
+    <Compile Include="MovimientoMedicamentox.cs" />
+    <Compile Include="MovimientoPaciente.cs" />
+    <Compile Include="MovimientoPacienteDetalle.cs" />
+    <Compile Include="MovimientoPacienteDetallex.cs" />
+    <Compile Include="MovimientoPacientex.cs" />
+    <Compile Include="MovimientoProcedimiento.cs" />
+    <Compile Include="MovimientoProcedimientox.cs" />
+    <Compile Include="ObservacionControlMedico.cs" />
+    <Compile Include="Paciente.cs" />
+    <Compile Include="PacienteHistoria.cs" />
+    <Compile Include="Paquete.cs" />
+    <Compile Include="PermisoPerfil.cs" />
+    <Compile Include="PersonalAtiende.cs" />
+    <Compile Include="PrecioMinimo.cs" />
+    <Compile Include="PrecioPeriodo.cs" />
+    <Compile Include="Procedimiento.cs" />
+    <Compile Include="ProduccionCierreDigitacion.cs" />
+    <Compile Include="ProduccionEstablecimiento.cs" />
+    <Compile Include="Producto.cs" />
+    <Compile Include="Programa.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Proveedor.cs" />
+    <Compile Include="Red.cs" />
+    <Compile Include="ReporteAtendidosRegion.cs" />
+    <Compile Include="ResponsableAtencion.cs" />
+    <Compile Include="SaldoCuentaCierre.cs" />
+    <Compile Include="SaldoCuentaConciliacion.cs" />
+    <Compile Include="Sexo.cs" />
+    <Compile Include="SistemaConfiguracion.cs" />
+    <Compile Include="SolicitudAutorizacion.cs" />
+    <Compile Include="SolicitudAutorizacionCabecera.cs" />
+    <Compile Include="SolicitudAutorizacionDetalle.cs" />
+    <Compile Include="SolicitudAutorizacionMedicamento.cs" />
+    <Compile Include="SolicitudAutorizacionProcedimiento.cs" />
+    <Compile Include="Sugerencias.cs" />
+    <Compile Include="sysdiagrams.cs" />
+    <Compile Include="Tarifario.cs" />
+    <Compile Include="TarifarioMedicamento.cs" />
+    <Compile Include="TarifarioProcedimiento.cs" />
+    <Compile Include="TarifarioResumen.cs" />
+    <Compile Include="TipoAtiende.cs" />
+    <Compile Include="TipoAutorizacion.cs" />
+    <Compile Include="TipoControlMedico.cs" />
+    <Compile Include="TipoDiagnostico.cs" />
+    <Compile Include="TipoDocumento.cs" />
+    <Compile Include="TipoIngreso.cs" />
+    <Compile Include="TipoModalidad.cs" />
+    <Compile Include="TipoMovimiento.cs" />
+    <Compile Include="TipoObservacion.cs" />
+    <Compile Include="TipoPago.cs" />
+    <Compile Include="TipoPrestacion.cs" />
+    <Compile Include="TipoRegimen.cs" />
+    <Compile Include="TipoTratamiento.cs" />
+    <Compile Include="Trabajador.cs" />
+    <Compile Include="TranferenciaFUAS.cs" />
+    <Compile Include="Tratamiento.cs" />
+    <Compile Include="TratamientoMedicamento.cs" />
+    <Compile Include="TratamientoProcedimiento.cs" />
+    <Compile Include="ubigeo.cs" />
+    <Compile Include="UnidadEjecutora.cs" />
+    <Compile Include="UnidadMedida.cs" />
+    <Compile Include="Usuario.cs" />
+    <Compile Include="vw2_MovimientoPaciente_Listar.cs" />
+    <Compile Include="vw2_SolicitudAutorizacion.cs" />
+    <Compile Include="vw2_SolicitudAutorizacionDetalle.cs" />
+    <Compile Include="vw_Actividad.cs" />
+    <Compile Include="vw_Autorizacion.cs" />
+    <Compile Include="vw_Autorizaciones.cs" />
+    <Compile Include="vw_AutorizacionTransferencia.cs" />
+    <Compile Include="vw_CategoriaCIE.cs" />
+    <Compile Include="vw_cie10.cs" />
+    <Compile Include="vw_consumosSIS.cs" />
+    <Compile Include="vw_ControlMedicoLog.cs" />
+    <Compile Include="vw_enfermedad.cs" />
+    <Compile Include="vw_EnfermedadFull.cs" />
+    <Compile Include="vw_EsquemaCategoria.cs" />
+    <Compile Include="vw_EsquemasEstablecimiento.cs" />
+    <Compile Include="vw_establecimientoprecio.cs" />
+    <Compile Include="vw_Establecimientos.cs" />
+    <Compile Include="vw_EstablecimientoTodos.cs" />
+    <Compile Include="vw_Finalidad.cs" />
+    <Compile Include="vw_fuaprocedimiento.cs" />
+    <Compile Include="vw_medicamento.cs" />
+    <Compile Include="vw_MovimientoPaciente.cs" />
+    <Compile Include="vw_MovimientoPacienteDetalle.cs" />
+    <Compile Include="vw_MovimientoPacienteEstablecimiento.cs" />
+    <Compile Include="vw_MovimientoPacienteFull.cs" />
+    <Compile Include="vw_MovimientoPacienteLote.cs" />
+    <Compile Include="vw_movimientoPacienteMedicamento.cs" />
+    <Compile Include="vw_MovimientoPacienteProcedimiento.cs" />
+    <Compile Include="vw_MovimientoPacienteValorizado.cs" />
+    <Compile Include="vw_Paciente.cs" />
+    <Compile Include="vw_PacienteBuscar.cs" />
+    <Compile Include="vw_paquete.cs" />
+    <Compile Include="vw_PaqueteAutorizacion.cs" />
+    <Compile Include="vw_PaqueteEsquema.cs" />
+    <Compile Include="vw_PaqueteMedicamentoCosto.cs" />
+    <Compile Include="vw_PaqueteMedicamentos.cs" />
+    <Compile Include="vw_PaqueteMedicamentosEsquemas.cs" />
+    <Compile Include="vw_PaqueteProcedimientoCosto.cs" />
+    <Compile Include="vw_PaqueteProcedimientos.cs" />
+    <Compile Include="vw_paquetes_autorizacion.cs" />
+    <Compile Include="vw_paquetes_imp.cs" />
+    <Compile Include="vw_PaqueteTratamiento.cs" />
+    <Compile Include="vw_periodoprecio.cs" />
+    <Compile Include="vw_PrecioMinimo.cs" />
+    <Compile Include="vw_PrecioPeriodo.cs" />
+    <Compile Include="vw_procedimiento.cs" />
+    <Compile Include="vw_Producto.cs" />
+    <Compile Include="vw_ProgramaProductoActividadFinalidad.cs" />
+    <Compile Include="vw_ReporteMovimientoMedicamento.cs" />
+    <Compile Include="vw_RptMovimiento.cs" />
+    <Compile Include="vw_RptMovimientoMedicamento.cs" />
+    <Compile Include="vw_RptMovimientoProcedimiento.cs" />
+    <Compile Include="vw_SolicitudAutorizacion.cs" />
+    <Compile Include="vw_SolicitudAutorizacionMedicamento.cs" />
+    <Compile Include="vw_SolicitudAutorizacionProcedimiento.cs" />
+    <Compile Include="vw_SolicitudPendiente.cs" />
+    <Compile Include="vw_Tarifario.cs" />
+    <Compile Include="vw_TarifarioMedicamento.cs" />
+    <Compile Include="vw_TarifarioMedicamentoTodos.cs" />
+    <Compile Include="vw_TarifarioProcedimiento.cs" />
+    <Compile Include="vw_TarifarioProcedimientoTodos.cs" />
+    <Compile Include="vw_TarifarioResumen.cs" />
+    <Compile Include="vw_tarifarios_imp.cs" />
+    <Compile Include="vw_TipoPrestacion.cs" />
+    <Compile Include="vw_TratamientoMedicamento.cs" />
+    <Compile Include="vw_ubigeodepartamentos.cs" />
+    <Compile Include="vw_ubigeodistritos.cs" />
+    <Compile Include="vw_ubigeoprovincias.cs" />
+    <Compile Include="vw_Usuario.cs" />
+    <Compile Include="vw_ValorMedicamentos.cs" />
+    <Compile Include="vw_ValorProcedimientos.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

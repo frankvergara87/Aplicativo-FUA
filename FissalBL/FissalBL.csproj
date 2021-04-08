@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1BF66E07-0552-4C3D-A5F0-543DFE828FAF}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FissalBL</RootNamespace>
+    <AssemblyName>FissalBL</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AtencionCierreBL.cs" />
+    <Compile Include="AutorizacionBL.cs" />
+    <Compile Include="CategoriaCIEBL.cs" />
+    <Compile Include="EstadoCuentaConciliacionBL.cs" />
+    <Compile Include="ProduccionBL.cs" />
+    <Compile Include="ControlMedicoLogBL.cs" />
+    <Compile Include="DatosBL.cs" />
+    <Compile Include="DatosGlobales\VariablesGlobales.cs" />
+    <Compile Include="DestinoAseguradoBL.cs" />
+    <Compile Include="EnfermedadBL.cs" />
+    <Compile Include="EstablecimientoBL.cs" />
+    <Compile Include="EstadioBL.cs" />
+    <Compile Include="FaseBL.cs" />
+    <Compile Include="GrupoCategoriaBL.cs" />
+    <Compile Include="InstitucionBL.cs" />
+    <Compile Include="LugarAtencionBL.cs" />
+    <Compile Include="MedicamentoBL.cs" />
+    <Compile Include="MedicoBL.cs" />
+    <Compile Include="MovimientoMedicamentoBL.cs" />
+    <Compile Include="MovimientoPacienteBL.cs" />
+    <Compile Include="MovimientoPacienteDetalleBL.cs" />
+    <Compile Include="MovimientoProcedimientoBL.cs" />
+    <Compile Include="PacienteBL.cs" />
+    <Compile Include="PaqueteBL.cs" />
+    <Compile Include="PerfilBL.cs" />
+    <Compile Include="PermisoPerfilBL.cs" />
+    <Compile Include="PersonalAtiendeBL.cs" />
+    <Compile Include="ProcedimientoBL.cs" />
+    <Compile Include="ProduccionEstablecimientoBL.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RegionBL.cs" />
+    <Compile Include="ReportesBL.cs" />
+    <Compile Include="ResponsableAtencionBL.cs" />
+    <Compile Include="SaldoCuentaConciliacionBL.cs" />
+    <Compile Include="SexoBL.cs" />
+    <Compile Include="SolicitudAutorizacionBL.cs" />
+    <Compile Include="SolicitudAutorizacionCabeceraBL.cs" />
+    <Compile Include="SolicitudAutorizacionDetalleBL.cs" />
+    <Compile Include="TarifarioBL.cs" />
+    <Compile Include="TipoAutorizacionBL.cs" />
+    <Compile Include="TipoDocumentoBL.cs" />
+    <Compile Include="TipoIngresoBL.cs" />
+    <Compile Include="TipoModalidadBL.cs" />
+    <Compile Include="TipoObservacionBL.cs" />
+    <Compile Include="TipoPrestacionBL.cs" />
+    <Compile Include="TipoRegimenBL.cs" />
+    <Compile Include="TipoTratamientoBL.cs" />
+    <Compile Include="TratamientoBL.cs" />
+    <Compile Include="UsuarioBL.cs" />
+    <Compile Include="Validaciones\UsuarioBV.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FissalBE\FissalBE.csproj">
+      <Project>{1fce949d-12d1-4e64-8d7a-9ae8f9505847}</Project>
+      <Name>FissalBE</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FissalDA\FissalDA.csproj">
+      <Project>{c2095eeb-cb04-4edf-9fab-b09cd9fa0680}</Project>
+      <Name>FissalDA</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

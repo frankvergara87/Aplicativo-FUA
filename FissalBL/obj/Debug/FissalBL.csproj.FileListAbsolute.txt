@@ -1,0 +1,126 @@
+C:\FissalV2DEV_RTM08.04.2015\FissalV2DEV\FissalBL\bin\Debug\FissalBL.dll
+C:\FissalV2DEV_RTM08.04.2015\FissalV2DEV\FissalBL\bin\Debug\FissalBL.pdb
+C:\FissalV2DEV_RTM08.04.2015\FissalV2DEV\FissalBL\bin\Debug\FissalBE.dll
+C:\FissalV2DEV_RTM08.04.2015\FissalV2DEV\FissalBL\bin\Debug\FissalDA.dll
+C:\FissalV2DEV_RTM08.04.2015\FissalV2DEV\FissalBL\bin\Debug\FissalBE.pdb
+C:\FissalV2DEV_RTM08.04.2015\FissalV2DEV\FissalBL\bin\Debug\FissalDA.pdb
+C:\FissalV2DEV_RTM08.04.2015\FissalV2DEV\FissalBL\obj\Debug\FissalBL.csprojResolveAssemblyReference.cache
+C:\FissalV2DEV_RTM08.04.2015\FissalV2DEV\FissalBL\obj\Debug\FissalBL.dll
+C:\FissalV2DEV_RTM08.04.2015\FissalV2DEV\FissalBL\obj\Debug\FissalBL.pdb
+D:\fvergara\Desktop\Aplicativo Fua - Version 03-11-2015\FissalBL\bin\Debug\FissalBL.dll
+D:\fvergara\Desktop\Aplicativo Fua - Version 03-11-2015\FissalBL\bin\Debug\FissalBL.pdb
+D:\fvergara\Desktop\Aplicativo Fua - Version 03-11-2015\FissalBL\bin\Debug\FissalBE.dll
+D:\fvergara\Desktop\Aplicativo Fua - Version 03-11-2015\FissalBL\bin\Debug\FissalDA.dll
+D:\fvergara\Desktop\Aplicativo Fua - Version 03-11-2015\FissalBL\bin\Debug\FissalBE.pdb
+D:\fvergara\Desktop\Aplicativo Fua - Version 03-11-2015\FissalBL\bin\Debug\FissalDA.pdb
+D:\fvergara\Desktop\Aplicativo Fua - Version 03-11-2015\FissalBL\obj\Debug\FissalBL.csprojResolveAssemblyReference.cache
+D:\fvergara\Desktop\Aplicativo Fua - Version 03-11-2015\FissalBL\obj\Debug\FissalBL.dll
+D:\fvergara\Desktop\Aplicativo Fua - Version 03-11-2015\FissalBL\obj\Debug\FissalBL.pdb
+C:\Users\Frank\Desktop\DEMO\Aplicativo Fua - Version 03-11-2015\FissalBL\bin\Debug\FissalBL.dll
+C:\Users\Frank\Desktop\DEMO\Aplicativo Fua - Version 03-11-2015\FissalBL\bin\Debug\FissalBL.pdb
+C:\Users\Frank\Desktop\DEMO\Aplicativo Fua - Version 03-11-2015\FissalBL\bin\Debug\FissalBE.dll
+C:\Users\Frank\Desktop\DEMO\Aplicativo Fua - Version 03-11-2015\FissalBL\bin\Debug\FissalDA.dll
+C:\Users\Frank\Desktop\DEMO\Aplicativo Fua - Version 03-11-2015\FissalBL\bin\Debug\FissalBE.pdb
+C:\Users\Frank\Desktop\DEMO\Aplicativo Fua - Version 03-11-2015\FissalBL\bin\Debug\FissalDA.pdb
+C:\Users\Frank\Desktop\DEMO\Aplicativo Fua - Version 03-11-2015\FissalBL\obj\Debug\FissalBL.csprojResolveAssemblyReference.cache
+C:\Users\Frank\Desktop\DEMO\Aplicativo Fua - Version 03-11-2015\FissalBL\obj\Debug\FissalBL.dll
+C:\Users\Frank\Desktop\DEMO\Aplicativo Fua - Version 03-11-2015\FissalBL\obj\Debug\FissalBL.pdb
+D:\fvergara\Desktop\DEMO 06-11-2015\Aplicativo Fua - Version 03-11-2015\FissalBL\bin\Debug\FissalBL.dll
+D:\fvergara\Desktop\DEMO 06-11-2015\Aplicativo Fua - Version 03-11-2015\FissalBL\bin\Debug\FissalBL.pdb
+D:\fvergara\Desktop\DEMO 06-11-2015\Aplicativo Fua - Version 03-11-2015\FissalBL\bin\Debug\FissalBE.dll
+D:\fvergara\Desktop\DEMO 06-11-2015\Aplicativo Fua - Version 03-11-2015\FissalBL\bin\Debug\FissalDA.dll
+D:\fvergara\Desktop\DEMO 06-11-2015\Aplicativo Fua - Version 03-11-2015\FissalBL\bin\Debug\FissalBE.pdb
+D:\fvergara\Desktop\DEMO 06-11-2015\Aplicativo Fua - Version 03-11-2015\FissalBL\bin\Debug\FissalDA.pdb
+D:\fvergara\Desktop\DEMO 06-11-2015\Aplicativo Fua - Version 03-11-2015\FissalBL\obj\Debug\FissalBL.csprojResolveAssemblyReference.cache
+D:\fvergara\Desktop\DEMO 06-11-2015\Aplicativo Fua - Version 03-11-2015\FissalBL\obj\Debug\FissalBL.dll
+D:\fvergara\Desktop\DEMO 06-11-2015\Aplicativo Fua - Version 03-11-2015\FissalBL\obj\Debug\FissalBL.pdb
+D:\fvergara\Desktop\DEMO 06-11-2015\Aplicativo Fua - Version 06-11-2015\FissalBL\bin\Debug\FissalBL.dll
+D:\fvergara\Desktop\DEMO 06-11-2015\Aplicativo Fua - Version 06-11-2015\FissalBL\bin\Debug\FissalBL.pdb
+D:\fvergara\Desktop\DEMO 06-11-2015\Aplicativo Fua - Version 06-11-2015\FissalBL\bin\Debug\FissalBE.dll
+D:\fvergara\Desktop\DEMO 06-11-2015\Aplicativo Fua - Version 06-11-2015\FissalBL\bin\Debug\FissalDA.dll
+D:\fvergara\Desktop\DEMO 06-11-2015\Aplicativo Fua - Version 06-11-2015\FissalBL\bin\Debug\FissalBE.pdb
+D:\fvergara\Desktop\DEMO 06-11-2015\Aplicativo Fua - Version 06-11-2015\FissalBL\bin\Debug\FissalDA.pdb
+D:\fvergara\Desktop\DEMO 06-11-2015\Aplicativo Fua - Version 06-11-2015\FissalBL\obj\Debug\FissalBL.csprojResolveAssemblyReference.cache
+D:\fvergara\Desktop\DEMO 06-11-2015\Aplicativo Fua - Version 06-11-2015\FissalBL\obj\Debug\FissalBL.dll
+D:\fvergara\Desktop\DEMO 06-11-2015\Aplicativo Fua - Version 06-11-2015\FissalBL\obj\Debug\FissalBL.pdb
+C:\Users\Frank\Desktop\DEMO 06-11-2015\DEMO 06-11-2015\Aplicativo Fua - Version 06-11-2015\FissalBL\bin\Debug\FissalBL.dll
+C:\Users\Frank\Desktop\DEMO 06-11-2015\DEMO 06-11-2015\Aplicativo Fua - Version 06-11-2015\FissalBL\bin\Debug\FissalBL.pdb
+C:\Users\Frank\Desktop\DEMO 06-11-2015\DEMO 06-11-2015\Aplicativo Fua - Version 06-11-2015\FissalBL\bin\Debug\FissalBE.dll
+C:\Users\Frank\Desktop\DEMO 06-11-2015\DEMO 06-11-2015\Aplicativo Fua - Version 06-11-2015\FissalBL\bin\Debug\FissalDA.dll
+C:\Users\Frank\Desktop\DEMO 06-11-2015\DEMO 06-11-2015\Aplicativo Fua - Version 06-11-2015\FissalBL\bin\Debug\FissalBE.pdb
+C:\Users\Frank\Desktop\DEMO 06-11-2015\DEMO 06-11-2015\Aplicativo Fua - Version 06-11-2015\FissalBL\bin\Debug\FissalDA.pdb
+C:\Users\Frank\Desktop\DEMO 06-11-2015\DEMO 06-11-2015\Aplicativo Fua - Version 06-11-2015\FissalBL\obj\Debug\FissalBL.csprojResolveAssemblyReference.cache
+C:\Users\Frank\Desktop\DEMO 06-11-2015\DEMO 06-11-2015\Aplicativo Fua - Version 06-11-2015\FissalBL\obj\Debug\FissalBL.dll
+C:\Users\Frank\Desktop\DEMO 06-11-2015\DEMO 06-11-2015\Aplicativo Fua - Version 06-11-2015\FissalBL\obj\Debug\FissalBL.pdb
+D:\fvergara\Desktop\DEMO 09-11-2015\DEMO 09-11-2015\DEMO 09-11-2015\Aplicativo Fua - Version 09-11-2015\FissalBL\bin\Debug\FissalBL.dll
+D:\fvergara\Desktop\DEMO 09-11-2015\DEMO 09-11-2015\DEMO 09-11-2015\Aplicativo Fua - Version 09-11-2015\FissalBL\bin\Debug\FissalBL.pdb
+D:\fvergara\Desktop\DEMO 09-11-2015\DEMO 09-11-2015\DEMO 09-11-2015\Aplicativo Fua - Version 09-11-2015\FissalBL\bin\Debug\FissalBE.dll
+D:\fvergara\Desktop\DEMO 09-11-2015\DEMO 09-11-2015\DEMO 09-11-2015\Aplicativo Fua - Version 09-11-2015\FissalBL\bin\Debug\FissalDA.dll
+D:\fvergara\Desktop\DEMO 09-11-2015\DEMO 09-11-2015\DEMO 09-11-2015\Aplicativo Fua - Version 09-11-2015\FissalBL\bin\Debug\FissalBE.pdb
+D:\fvergara\Desktop\DEMO 09-11-2015\DEMO 09-11-2015\DEMO 09-11-2015\Aplicativo Fua - Version 09-11-2015\FissalBL\bin\Debug\FissalDA.pdb
+D:\fvergara\Desktop\DEMO 09-11-2015\DEMO 09-11-2015\DEMO 09-11-2015\Aplicativo Fua - Version 09-11-2015\FissalBL\obj\Debug\FissalBL.csprojResolveAssemblyReference.cache
+D:\fvergara\Desktop\DEMO 09-11-2015\DEMO 09-11-2015\DEMO 09-11-2015\Aplicativo Fua - Version 09-11-2015\FissalBL\obj\Debug\FissalBL.dll
+D:\fvergara\Desktop\DEMO 09-11-2015\DEMO 09-11-2015\DEMO 09-11-2015\Aplicativo Fua - Version 09-11-2015\FissalBL\obj\Debug\FissalBL.pdb
+D:\fvergara\Desktop\FRANK\Aplicativo Fua - Version 9\FissalBL\bin\Debug\FissalBL.dll
+D:\fvergara\Desktop\FRANK\Aplicativo Fua - Version 9\FissalBL\bin\Debug\FissalBL.pdb
+D:\fvergara\Desktop\FRANK\Aplicativo Fua - Version 9\FissalBL\bin\Debug\FissalBE.dll
+D:\fvergara\Desktop\FRANK\Aplicativo Fua - Version 9\FissalBL\bin\Debug\FissalDA.dll
+D:\fvergara\Desktop\FRANK\Aplicativo Fua - Version 9\FissalBL\bin\Debug\FissalBE.pdb
+D:\fvergara\Desktop\FRANK\Aplicativo Fua - Version 9\FissalBL\bin\Debug\FissalDA.pdb
+D:\fvergara\Desktop\FRANK\Aplicativo Fua - Version 9\FissalBL\obj\Debug\FissalBL.csprojResolveAssemblyReference.cache
+D:\fvergara\Desktop\FRANK\Aplicativo Fua - Version 9\FissalBL\obj\Debug\FissalBL.dll
+D:\fvergara\Desktop\FRANK\Aplicativo Fua - Version 9\FissalBL\obj\Debug\FissalBL.pdb
+C:\FRANK ULTIMA VERSION\Aplicativo Fua - Version 9\FissalBL\bin\Debug\FissalBL.dll
+C:\FRANK ULTIMA VERSION\Aplicativo Fua - Version 9\FissalBL\bin\Debug\FissalBL.pdb
+C:\FRANK ULTIMA VERSION\Aplicativo Fua - Version 9\FissalBL\bin\Debug\FissalBE.dll
+C:\FRANK ULTIMA VERSION\Aplicativo Fua - Version 9\FissalBL\bin\Debug\FissalDA.dll
+C:\FRANK ULTIMA VERSION\Aplicativo Fua - Version 9\FissalBL\bin\Debug\FissalBE.pdb
+C:\FRANK ULTIMA VERSION\Aplicativo Fua - Version 9\FissalBL\bin\Debug\FissalDA.pdb
+C:\FRANK ULTIMA VERSION\Aplicativo Fua - Version 9\FissalBL\obj\Debug\FissalBL.csprojResolveAssemblyReference.cache
+C:\FRANK ULTIMA VERSION\Aplicativo Fua - Version 9\FissalBL\obj\Debug\FissalBL.dll
+C:\FRANK ULTIMA VERSION\Aplicativo Fua - Version 9\FissalBL\obj\Debug\FissalBL.pdb
+D:\fvergara\Desktop\PAQUETE REGISTRO ATENCIONES\Aplicativo Fua - Version 10\FissalBL\bin\Debug\FissalBL.dll
+D:\fvergara\Desktop\PAQUETE REGISTRO ATENCIONES\Aplicativo Fua - Version 10\FissalBL\bin\Debug\FissalBL.pdb
+D:\fvergara\Desktop\PAQUETE REGISTRO ATENCIONES\Aplicativo Fua - Version 10\FissalBL\bin\Debug\FissalBE.dll
+D:\fvergara\Desktop\PAQUETE REGISTRO ATENCIONES\Aplicativo Fua - Version 10\FissalBL\bin\Debug\FissalDA.dll
+D:\fvergara\Desktop\PAQUETE REGISTRO ATENCIONES\Aplicativo Fua - Version 10\FissalBL\bin\Debug\FissalBE.pdb
+D:\fvergara\Desktop\PAQUETE REGISTRO ATENCIONES\Aplicativo Fua - Version 10\FissalBL\bin\Debug\FissalDA.pdb
+D:\fvergara\Desktop\PAQUETE REGISTRO ATENCIONES\Aplicativo Fua - Version 10\FissalBL\obj\Debug\FissalBL.csprojResolveAssemblyReference.cache
+D:\fvergara\Desktop\PAQUETE REGISTRO ATENCIONES\Aplicativo Fua - Version 10\FissalBL\obj\Debug\FissalBL.dll
+D:\fvergara\Desktop\PAQUETE REGISTRO ATENCIONES\Aplicativo Fua - Version 10\FissalBL\obj\Debug\FissalBL.pdb
+H:\ENTREGABLES\4.-Interfaz - Anexo Cierre de producciones\Aplicativo Fua - Version 10\Aplicativo Fua - Version 10\FissalBL\bin\Debug\FissalBL.dll
+H:\ENTREGABLES\4.-Interfaz - Anexo Cierre de producciones\Aplicativo Fua - Version 10\Aplicativo Fua - Version 10\FissalBL\bin\Debug\FissalBL.pdb
+H:\ENTREGABLES\4.-Interfaz - Anexo Cierre de producciones\Aplicativo Fua - Version 10\Aplicativo Fua - Version 10\FissalBL\bin\Debug\FissalBE.dll
+H:\ENTREGABLES\4.-Interfaz - Anexo Cierre de producciones\Aplicativo Fua - Version 10\Aplicativo Fua - Version 10\FissalBL\bin\Debug\FissalDA.dll
+H:\ENTREGABLES\4.-Interfaz - Anexo Cierre de producciones\Aplicativo Fua - Version 10\Aplicativo Fua - Version 10\FissalBL\bin\Debug\FissalBE.pdb
+H:\ENTREGABLES\4.-Interfaz - Anexo Cierre de producciones\Aplicativo Fua - Version 10\Aplicativo Fua - Version 10\FissalBL\bin\Debug\FissalDA.pdb
+H:\ENTREGABLES\4.-Interfaz - Anexo Cierre de producciones\Aplicativo Fua - Version 10\Aplicativo Fua - Version 10\FissalBL\obj\Debug\FissalBL.csprojResolveAssemblyReference.cache
+H:\ENTREGABLES\4.-Interfaz - Anexo Cierre de producciones\Aplicativo Fua - Version 10\Aplicativo Fua - Version 10\FissalBL\obj\Debug\FissalBL.dll
+H:\ENTREGABLES\4.-Interfaz - Anexo Cierre de producciones\Aplicativo Fua - Version 10\Aplicativo Fua - Version 10\FissalBL\obj\Debug\FissalBL.pdb
+D:\fvergara\Desktop\Aplicativo Fua - Version 10\Aplicativo Fua - Version 10\Aplicativo Fua - Version 10\FissalBL\bin\Debug\FissalBL.dll
+D:\fvergara\Desktop\Aplicativo Fua - Version 10\Aplicativo Fua - Version 10\Aplicativo Fua - Version 10\FissalBL\bin\Debug\FissalBL.pdb
+D:\fvergara\Desktop\Aplicativo Fua - Version 10\Aplicativo Fua - Version 10\Aplicativo Fua - Version 10\FissalBL\bin\Debug\FissalBE.dll
+D:\fvergara\Desktop\Aplicativo Fua - Version 10\Aplicativo Fua - Version 10\Aplicativo Fua - Version 10\FissalBL\bin\Debug\FissalDA.dll
+D:\fvergara\Desktop\Aplicativo Fua - Version 10\Aplicativo Fua - Version 10\Aplicativo Fua - Version 10\FissalBL\bin\Debug\FissalBE.pdb
+D:\fvergara\Desktop\Aplicativo Fua - Version 10\Aplicativo Fua - Version 10\Aplicativo Fua - Version 10\FissalBL\bin\Debug\FissalDA.pdb
+D:\fvergara\Desktop\Aplicativo Fua - Version 10\Aplicativo Fua - Version 10\Aplicativo Fua - Version 10\FissalBL\obj\Debug\FissalBL.csprojResolveAssemblyReference.cache
+D:\fvergara\Desktop\Aplicativo Fua - Version 10\Aplicativo Fua - Version 10\Aplicativo Fua - Version 10\FissalBL\obj\Debug\FissalBL.dll
+D:\fvergara\Desktop\Aplicativo Fua - Version 10\Aplicativo Fua - Version 10\Aplicativo Fua - Version 10\FissalBL\obj\Debug\FissalBL.pdb
+C:\PAQUETE FINAL FISSAL\PAQUETE FINAL FISSAL\Aplicativo Fua - Version 10\Aplicativo Fua - Version 10\Aplicativo Fua - Version 10\FissalBL\bin\Debug\FissalBL.dll
+C:\PAQUETE FINAL FISSAL\PAQUETE FINAL FISSAL\Aplicativo Fua - Version 10\Aplicativo Fua - Version 10\Aplicativo Fua - Version 10\FissalBL\bin\Debug\FissalBL.pdb
+C:\PAQUETE FINAL FISSAL\PAQUETE FINAL FISSAL\Aplicativo Fua - Version 10\Aplicativo Fua - Version 10\Aplicativo Fua - Version 10\FissalBL\bin\Debug\FissalBE.dll
+C:\PAQUETE FINAL FISSAL\PAQUETE FINAL FISSAL\Aplicativo Fua - Version 10\Aplicativo Fua - Version 10\Aplicativo Fua - Version 10\FissalBL\bin\Debug\FissalDA.dll
+C:\PAQUETE FINAL FISSAL\PAQUETE FINAL FISSAL\Aplicativo Fua - Version 10\Aplicativo Fua - Version 10\Aplicativo Fua - Version 10\FissalBL\bin\Debug\FissalBE.pdb
+C:\PAQUETE FINAL FISSAL\PAQUETE FINAL FISSAL\Aplicativo Fua - Version 10\Aplicativo Fua - Version 10\Aplicativo Fua - Version 10\FissalBL\bin\Debug\FissalDA.pdb
+C:\PAQUETE FINAL FISSAL\PAQUETE FINAL FISSAL\Aplicativo Fua - Version 10\Aplicativo Fua - Version 10\Aplicativo Fua - Version 10\FissalBL\obj\Debug\FissalBL.csprojResolveAssemblyReference.cache
+C:\PAQUETE FINAL FISSAL\PAQUETE FINAL FISSAL\Aplicativo Fua - Version 10\Aplicativo Fua - Version 10\Aplicativo Fua - Version 10\FissalBL\obj\Debug\FissalBL.dll
+C:\PAQUETE FINAL FISSAL\PAQUETE FINAL FISSAL\Aplicativo Fua - Version 10\Aplicativo Fua - Version 10\Aplicativo Fua - Version 10\FissalBL\obj\Debug\FissalBL.pdb
+D:\D\Aplicativo Fua - Version 10\Aplicativo Fua - Version 10\Aplicativo Fua - Version 10\Aplicativo Fua - Version 10\FissalBL\bin\Debug\FissalBL.dll
+D:\D\Aplicativo Fua - Version 10\Aplicativo Fua - Version 10\Aplicativo Fua - Version 10\Aplicativo Fua - Version 10\FissalBL\bin\Debug\FissalBL.pdb
+D:\D\Aplicativo Fua - Version 10\Aplicativo Fua - Version 10\Aplicativo Fua - Version 10\Aplicativo Fua - Version 10\FissalBL\bin\Debug\FissalBE.dll
+D:\D\Aplicativo Fua - Version 10\Aplicativo Fua - Version 10\Aplicativo Fua - Version 10\Aplicativo Fua - Version 10\FissalBL\bin\Debug\FissalDA.dll
+D:\D\Aplicativo Fua - Version 10\Aplicativo Fua - Version 10\Aplicativo Fua - Version 10\Aplicativo Fua - Version 10\FissalBL\bin\Debug\FissalBE.pdb
+D:\D\Aplicativo Fua - Version 10\Aplicativo Fua - Version 10\Aplicativo Fua - Version 10\Aplicativo Fua - Version 10\FissalBL\bin\Debug\FissalDA.pdb
+D:\D\Aplicativo Fua - Version 10\Aplicativo Fua - Version 10\Aplicativo Fua - Version 10\Aplicativo Fua - Version 10\FissalBL\obj\Debug\FissalBL.csprojResolveAssemblyReference.cache
+D:\D\Aplicativo Fua - Version 10\Aplicativo Fua - Version 10\Aplicativo Fua - Version 10\Aplicativo Fua - Version 10\FissalBL\obj\Debug\FissalBL.dll
+D:\D\Aplicativo Fua - Version 10\Aplicativo Fua - Version 10\Aplicativo Fua - Version 10\Aplicativo Fua - Version 10\FissalBL\obj\Debug\FissalBL.pdb

@@ -1,0 +1,36 @@
+C:\FissalV2DEV_RTM08.04.2015\FissalV2DEV\FissalBL\bin\Release\FissalBL.dll
+C:\FissalV2DEV_RTM08.04.2015\FissalV2DEV\FissalBL\bin\Release\FissalBL.pdb
+C:\FissalV2DEV_RTM08.04.2015\FissalV2DEV\FissalBL\bin\Release\FissalBE.dll
+C:\FissalV2DEV_RTM08.04.2015\FissalV2DEV\FissalBL\bin\Release\FissalDA.dll
+C:\FissalV2DEV_RTM08.04.2015\FissalV2DEV\FissalBL\bin\Release\FissalBE.pdb
+C:\FissalV2DEV_RTM08.04.2015\FissalV2DEV\FissalBL\bin\Release\FissalDA.pdb
+C:\FissalV2DEV_RTM08.04.2015\FissalV2DEV\FissalBL\obj\Release\FissalBL.csprojResolveAssemblyReference.cache
+C:\FissalV2DEV_RTM08.04.2015\FissalV2DEV\FissalBL\obj\Release\FissalBL.dll
+C:\FissalV2DEV_RTM08.04.2015\FissalV2DEV\FissalBL\obj\Release\FissalBL.pdb
+C:\FissalV2DEV_RTM\FissalV2DEV\FissalBL\bin\Release\FissalBL.dll
+C:\FissalV2DEV_RTM\FissalV2DEV\FissalBL\bin\Release\FissalBL.pdb
+C:\FissalV2DEV_RTM\FissalV2DEV\FissalBL\bin\Release\FissalBE.dll
+C:\FissalV2DEV_RTM\FissalV2DEV\FissalBL\bin\Release\FissalDA.dll
+C:\FissalV2DEV_RTM\FissalV2DEV\FissalBL\bin\Release\FissalBE.pdb
+C:\FissalV2DEV_RTM\FissalV2DEV\FissalBL\bin\Release\FissalDA.pdb
+C:\FissalV2DEV_RTM\FissalV2DEV\FissalBL\obj\Release\FissalBL.csprojResolveAssemblyReference.cache
+C:\FissalV2DEV_RTM\FissalV2DEV\FissalBL\obj\Release\FissalBL.dll
+C:\FissalV2DEV_RTM\FissalV2DEV\FissalBL\obj\Release\FissalBL.pdb
+D:\C\FissalV2DEV_RTM\FissalV2DEV\FissalBL\bin\Release\FissalBL.dll
+D:\C\FissalV2DEV_RTM\FissalV2DEV\FissalBL\bin\Release\FissalBL.pdb
+D:\C\FissalV2DEV_RTM\FissalV2DEV\FissalBL\bin\Release\FissalBE.dll
+D:\C\FissalV2DEV_RTM\FissalV2DEV\FissalBL\bin\Release\FissalDA.dll
+D:\C\FissalV2DEV_RTM\FissalV2DEV\FissalBL\bin\Release\FissalBE.pdb
+D:\C\FissalV2DEV_RTM\FissalV2DEV\FissalBL\bin\Release\FissalDA.pdb
+D:\C\FissalV2DEV_RTM\FissalV2DEV\FissalBL\obj\Release\FissalBL.csprojResolveAssemblyReference.cache
+D:\C\FissalV2DEV_RTM\FissalV2DEV\FissalBL\obj\Release\FissalBL.dll
+D:\C\FissalV2DEV_RTM\FissalV2DEV\FissalBL\obj\Release\FissalBL.pdb
+D:\fvergara\Desktop\APLICACION FUA V2\FissalV2DEV\FissalBL\bin\Release\FissalBL.dll
+D:\fvergara\Desktop\APLICACION FUA V2\FissalV2DEV\FissalBL\bin\Release\FissalBL.pdb
+D:\fvergara\Desktop\APLICACION FUA V2\FissalV2DEV\FissalBL\bin\Release\FissalBE.dll
+D:\fvergara\Desktop\APLICACION FUA V2\FissalV2DEV\FissalBL\bin\Release\FissalDA.dll
+D:\fvergara\Desktop\APLICACION FUA V2\FissalV2DEV\FissalBL\bin\Release\FissalBE.pdb
+D:\fvergara\Desktop\APLICACION FUA V2\FissalV2DEV\FissalBL\bin\Release\FissalDA.pdb
+D:\fvergara\Desktop\APLICACION FUA V2\FissalV2DEV\FissalBL\obj\Release\FissalBL.csprojResolveAssemblyReference.cache
+D:\fvergara\Desktop\APLICACION FUA V2\FissalV2DEV\FissalBL\obj\Release\FissalBL.dll
+D:\fvergara\Desktop\APLICACION FUA V2\FissalV2DEV\FissalBL\obj\Release\FissalBL.pdb

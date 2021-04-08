@@ -1,0 +1,47 @@
+C:\FissalV2DEV_RTM08.04.2015\FissalV2DEV\FisalUtil\bin\Debug\FisalUtil.dll
+C:\FissalV2DEV_RTM08.04.2015\FissalV2DEV\FisalUtil\bin\Debug\FisalUtil.pdb
+C:\FissalV2DEV_RTM08.04.2015\FissalV2DEV\FisalUtil\bin\Debug\Ionic.Zip.dll
+C:\FissalV2DEV_RTM08.04.2015\FissalV2DEV\FisalUtil\bin\Debug\NPOI.dll
+C:\FissalV2DEV_RTM08.04.2015\FissalV2DEV\FisalUtil\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\FissalV2DEV_RTM08.04.2015\FissalV2DEV\FisalUtil\obj\Debug\FisalUtil.csprojResolveAssemblyReference.cache
+C:\FissalV2DEV_RTM08.04.2015\FissalV2DEV\FisalUtil\obj\Debug\FisalUtil.dll
+C:\FissalV2DEV_RTM08.04.2015\FissalV2DEV\FisalUtil\obj\Debug\FisalUtil.pdb
+C:\FRANK ULTIMA VERSION\Aplicativo Fua - Version 9\FisalUtil\bin\Debug\FisalUtil.dll
+C:\FRANK ULTIMA VERSION\Aplicativo Fua - Version 9\FisalUtil\bin\Debug\FisalUtil.pdb
+C:\FRANK ULTIMA VERSION\Aplicativo Fua - Version 9\FisalUtil\bin\Debug\Ionic.Zip.dll
+C:\FRANK ULTIMA VERSION\Aplicativo Fua - Version 9\FisalUtil\bin\Debug\NPOI.dll
+C:\FRANK ULTIMA VERSION\Aplicativo Fua - Version 9\FisalUtil\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\FRANK ULTIMA VERSION\Aplicativo Fua - Version 9\FisalUtil\obj\Debug\FisalUtil.dll
+C:\FRANK ULTIMA VERSION\Aplicativo Fua - Version 9\FisalUtil\obj\Debug\FisalUtil.pdb
+C:\FRANK ULTIMA VERSION\Aplicativo Fua - Version 9\FisalUtil\obj\Debug\FisalUtil.csprojResolveAssemblyReference.cache
+D:\fvergara\Desktop\PAQUETE REGISTRO ATENCIONES\Aplicativo Fua - Version 10\FisalUtil\bin\Debug\FisalUtil.dll
+D:\fvergara\Desktop\PAQUETE REGISTRO ATENCIONES\Aplicativo Fua - Version 10\FisalUtil\bin\Debug\FisalUtil.pdb
+D:\fvergara\Desktop\PAQUETE REGISTRO ATENCIONES\Aplicativo Fua - Version 10\FisalUtil\bin\Debug\Ionic.Zip.dll
+D:\fvergara\Desktop\PAQUETE REGISTRO ATENCIONES\Aplicativo Fua - Version 10\FisalUtil\bin\Debug\NPOI.dll
+D:\fvergara\Desktop\PAQUETE REGISTRO ATENCIONES\Aplicativo Fua - Version 10\FisalUtil\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\fvergara\Desktop\PAQUETE REGISTRO ATENCIONES\Aplicativo Fua - Version 10\FisalUtil\obj\Debug\FisalUtil.csprojResolveAssemblyReference.cache
+D:\fvergara\Desktop\PAQUETE REGISTRO ATENCIONES\Aplicativo Fua - Version 10\FisalUtil\obj\Debug\FisalUtil.dll
+D:\fvergara\Desktop\PAQUETE REGISTRO ATENCIONES\Aplicativo Fua - Version 10\FisalUtil\obj\Debug\FisalUtil.pdb
+H:\ENTREGABLES\4.-Interfaz - Anexo Cierre de producciones\Aplicativo Fua - Version 10\Aplicativo Fua - Version 10\FisalUtil\bin\Debug\FisalUtil.dll
+H:\ENTREGABLES\4.-Interfaz - Anexo Cierre de producciones\Aplicativo Fua - Version 10\Aplicativo Fua - Version 10\FisalUtil\bin\Debug\FisalUtil.pdb
+H:\ENTREGABLES\4.-Interfaz - Anexo Cierre de producciones\Aplicativo Fua - Version 10\Aplicativo Fua - Version 10\FisalUtil\bin\Debug\Ionic.Zip.dll
+H:\ENTREGABLES\4.-Interfaz - Anexo Cierre de producciones\Aplicativo Fua - Version 10\Aplicativo Fua - Version 10\FisalUtil\bin\Debug\NPOI.dll
+H:\ENTREGABLES\4.-Interfaz - Anexo Cierre de producciones\Aplicativo Fua - Version 10\Aplicativo Fua - Version 10\FisalUtil\bin\Debug\ICSharpCode.SharpZipLib.dll
+H:\ENTREGABLES\4.-Interfaz - Anexo Cierre de producciones\Aplicativo Fua - Version 10\Aplicativo Fua - Version 10\FisalUtil\obj\Debug\FisalUtil.csprojResolveAssemblyReference.cache
+H:\ENTREGABLES\4.-Interfaz - Anexo Cierre de producciones\Aplicativo Fua - Version 10\Aplicativo Fua - Version 10\FisalUtil\obj\Debug\FisalUtil.dll
+H:\ENTREGABLES\4.-Interfaz - Anexo Cierre de producciones\Aplicativo Fua - Version 10\Aplicativo Fua - Version 10\FisalUtil\obj\Debug\FisalUtil.pdb
+D:\fvergara\Desktop\Aplicativo Fua - Version 10\Aplicativo Fua - Version 10\Aplicativo Fua - Version 10\FisalUtil\bin\Debug\FisalUtil.dll
+D:\fvergara\Desktop\Aplicativo Fua - Version 10\Aplicativo Fua - Version 10\Aplicativo Fua - Version 10\FisalUtil\bin\Debug\FisalUtil.pdb
+D:\fvergara\Desktop\Aplicativo Fua - Version 10\Aplicativo Fua - Version 10\Aplicativo Fua - Version 10\FisalUtil\bin\Debug\Ionic.Zip.dll
+D:\fvergara\Desktop\Aplicativo Fua - Version 10\Aplicativo Fua - Version 10\Aplicativo Fua - Version 10\FisalUtil\bin\Debug\NPOI.dll
+D:\fvergara\Desktop\Aplicativo Fua - Version 10\Aplicativo Fua - Version 10\Aplicativo Fua - Version 10\FisalUtil\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\fvergara\Desktop\Aplicativo Fua - Version 10\Aplicativo Fua - Version 10\Aplicativo Fua - Version 10\FisalUtil\obj\Debug\FisalUtil.dll
+D:\fvergara\Desktop\Aplicativo Fua - Version 10\Aplicativo Fua - Version 10\Aplicativo Fua - Version 10\FisalUtil\obj\Debug\FisalUtil.pdb
+C:\PAQUETE FINAL FISSAL\PAQUETE FINAL FISSAL\Aplicativo Fua - Version 10\Aplicativo Fua - Version 10\Aplicativo Fua - Version 10\FisalUtil\bin\Debug\FisalUtil.dll
+C:\PAQUETE FINAL FISSAL\PAQUETE FINAL FISSAL\Aplicativo Fua - Version 10\Aplicativo Fua - Version 10\Aplicativo Fua - Version 10\FisalUtil\bin\Debug\FisalUtil.pdb
+C:\PAQUETE FINAL FISSAL\PAQUETE FINAL FISSAL\Aplicativo Fua - Version 10\Aplicativo Fua - Version 10\Aplicativo Fua - Version 10\FisalUtil\bin\Debug\Ionic.Zip.dll
+C:\PAQUETE FINAL FISSAL\PAQUETE FINAL FISSAL\Aplicativo Fua - Version 10\Aplicativo Fua - Version 10\Aplicativo Fua - Version 10\FisalUtil\bin\Debug\NPOI.dll
+C:\PAQUETE FINAL FISSAL\PAQUETE FINAL FISSAL\Aplicativo Fua - Version 10\Aplicativo Fua - Version 10\Aplicativo Fua - Version 10\FisalUtil\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\PAQUETE FINAL FISSAL\PAQUETE FINAL FISSAL\Aplicativo Fua - Version 10\Aplicativo Fua - Version 10\Aplicativo Fua - Version 10\FisalUtil\obj\Debug\FisalUtil.csprojResolveAssemblyReference.cache
+C:\PAQUETE FINAL FISSAL\PAQUETE FINAL FISSAL\Aplicativo Fua - Version 10\Aplicativo Fua - Version 10\Aplicativo Fua - Version 10\FisalUtil\obj\Debug\FisalUtil.dll
+C:\PAQUETE FINAL FISSAL\PAQUETE FINAL FISSAL\Aplicativo Fua - Version 10\Aplicativo Fua - Version 10\Aplicativo Fua - Version 10\FisalUtil\obj\Debug\FisalUtil.pdb

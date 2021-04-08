@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C2095EEB-CB04-4EDF-9FAB-B09CD9FA0680}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FissalDA</RootNamespace>
+    <AssemblyName>FissalDA</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Acceso\AccesoBD.cs" />
+    <Compile Include="Acceso\Datos.cs" />
+    <Compile Include="AtencionCierreDA.cs" />
+    <Compile Include="AutorizacionDA.cs" />
+    <Compile Include="CategoriaCIEDA.cs" />
+    <Compile Include="EstadoCuentaConciliacionDA.cs" />
+    <Compile Include="ProduccionDA.cs" />
+    <Compile Include="ControlMedicoLogDA.cs" />
+    <Compile Include="DestinoAseguradoDA.cs" />
+    <Compile Include="EnfermedadDA.cs" />
+    <Compile Include="EstablecimientoDA.cs" />
+    <Compile Include="EstadioDA.cs" />
+    <Compile Include="FaseDA.cs" />
+    <Compile Include="GrupoCategoriaDA.cs" />
+    <Compile Include="InstitucionDA.cs" />
+    <Compile Include="LugarAtencionDA.cs" />
+    <Compile Include="MedicamentoDA.cs" />
+    <Compile Include="MedicoDA.cs" />
+    <Compile Include="MovimientoMedicamentoDA.cs" />
+    <Compile Include="MovimientoPacienteDA.cs" />
+    <Compile Include="MovimientoPacienteDetalleDA.cs" />
+    <Compile Include="MovimientoProcedimientoDA.cs" />
+    <Compile Include="PacienteDA.cs" />
+    <Compile Include="PaqueteDA.cs" />
+    <Compile Include="PerfilDA.cs" />
+    <Compile Include="PermisoPerfilDA.cs" />
+    <Compile Include="PersonalAtiendeDA.cs" />
+    <Compile Include="ProcedimientoDA.cs" />
+    <Compile Include="ProduccionEstablecimientoDA.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RegionDA.cs" />
+    <Compile Include="ReportesDA.cs" />
+    <Compile Include="ResponsableAtencionDA.cs" />
+    <Compile Include="SaldoCuentaConciliacionDA.cs" />
+    <Compile Include="SexoDA.cs" />
+    <Compile Include="SolicitudAutorizacionCabeceraDA.cs" />
+    <Compile Include="SolicitudAutorizacionDA.cs" />
+    <Compile Include="SolicitudAutorizacionDetalleDA.cs" />
+    <Compile Include="TarifarioDA.cs" />
+    <Compile Include="TipoAutorizacionDA.cs" />
+    <Compile Include="TipoDocumentoDA.cs" />
+    <Compile Include="TipoIngresoDA.cs" />
+    <Compile Include="TipoModalidadDA.cs" />
+    <Compile Include="TipoObservacionDA.cs" />
+    <Compile Include="TipoPrestacionDA.cs" />
+    <Compile Include="TipoRegimenDA.cs" />
+    <Compile Include="TipoTratamientoDA.cs" />
+    <Compile Include="TratamientoDA.cs" />
+    <Compile Include="UsuarioDA.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FissalBE\FissalBE.csproj">
+      <Project>{1fce949d-12d1-4e64-8d7a-9ae8f9505847}</Project>
+      <Name>FissalBE</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

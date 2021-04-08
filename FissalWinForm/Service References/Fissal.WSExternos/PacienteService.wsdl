@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://fissal.gob.pe/wspaciente/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://fissal.gob.pe/wspaciente/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://fissal.gob.pe/wspaciente/Imports">
+      <xsd:import schemaLocation="http://www.fissal.gob.pe/wsphronesis/paciente/PacienteService.svc?xsd=xsd0" namespace="http://fissal.gob.pe/wspaciente/" />
+      <xsd:import schemaLocation="http://www.fissal.gob.pe/wsphronesis/paciente/PacienteService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://www.fissal.gob.pe/wsphronesis/paciente/PacienteService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/FissalSWSExternos" />
+      <xsd:import schemaLocation="http://www.fissal.gob.pe/wsphronesis/paciente/PacienteService.svc?xsd=xsd3" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IPacienteService_ConsultarPaciente_InputMessage">
+    <wsdl:part name="parameters" element="tns:ConsultarPaciente" />
+  </wsdl:message>
+  <wsdl:message name="IPacienteService_ConsultarPaciente_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ConsultarPacienteResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPacienteService_ObtenerPacientes_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerPacientes" />
+  </wsdl:message>
+  <wsdl:message name="IPacienteService_ObtenerPacientes_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerPacientesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPacienteService_ActualizarAutorizaciones_InputMessage">
+    <wsdl:part name="parameters" element="tns:ActualizarAutorizaciones" />
+  </wsdl:message>
+  <wsdl:message name="IPacienteService_ActualizarAutorizaciones_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ActualizarAutorizacionesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPacienteService_ObtenerAutorizaciones_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerAutorizaciones" />
+  </wsdl:message>
+  <wsdl:message name="IPacienteService_ObtenerAutorizaciones_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerAutorizacionesResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IPacienteService">
+    <wsdl:operation name="ConsultarPaciente">
+      <wsdl:input wsaw:Action="http://fissal.gob.pe/wspaciente/IPacienteService/ConsultarPaciente" message="tns:IPacienteService_ConsultarPaciente_InputMessage" />
+      <wsdl:output wsaw:Action="http://fissal.gob.pe/wspaciente/IPacienteService/ConsultarPacienteResponse" message="tns:IPacienteService_ConsultarPaciente_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerPacientes">
+      <wsdl:input wsaw:Action="http://fissal.gob.pe/wspaciente/IPacienteService/ObtenerPacientes" message="tns:IPacienteService_ObtenerPacientes_InputMessage" />
+      <wsdl:output wsaw:Action="http://fissal.gob.pe/wspaciente/IPacienteService/ObtenerPacientesResponse" message="tns:IPacienteService_ObtenerPacientes_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ActualizarAutorizaciones">
+      <wsdl:input wsaw:Action="http://fissal.gob.pe/wspaciente/IPacienteService/ActualizarAutorizaciones" message="tns:IPacienteService_ActualizarAutorizaciones_InputMessage" />
+      <wsdl:output wsaw:Action="http://fissal.gob.pe/wspaciente/IPacienteService/ActualizarAutorizacionesResponse" message="tns:IPacienteService_ActualizarAutorizaciones_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerAutorizaciones">
+      <wsdl:input wsaw:Action="http://fissal.gob.pe/wspaciente/IPacienteService/ObtenerAutorizaciones" message="tns:IPacienteService_ObtenerAutorizaciones_InputMessage" />
+      <wsdl:output wsaw:Action="http://fissal.gob.pe/wspaciente/IPacienteService/ObtenerAutorizacionesResponse" message="tns:IPacienteService_ObtenerAutorizaciones_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>

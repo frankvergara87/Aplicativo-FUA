@@ -1,0 +1,179 @@
+﻿
+@{
+    ViewBag.Title = "Reporte Atendidos por Region";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+   
+}
+
+@section scripts{
+    <script>
+        $(function () {
+           
+            $("#ddlAnio").change(OnObtenerReporte);
+            $("#resultado").jqxGrid(
+                                {
+                                    width: '100%',
+                                    theme: 'arctic',
+                                    sortable: true,
+                                    showaggregates: true,
+                                    showstatusbar: true,
+                                    columnsresize: true,
+                                   
+                                    columns: [
+                                        { text: "Año", datafield: "Anio",width:60,cellsalign: 'center', align: 'center' },
+                                        { text: "Region", datafield: "Region",width:'15%', aggregatesrenderer: function (aggregates, column, element) {
+                                            var renderstring = "<br/><center><b>Totales</b></center>";                                           
+                                            return renderstring  ;
+                                        }},
+                                        {
+                                            text: "Atencion", datafield: "TotalAtenciones", cellsalign: 'right', align: 'center', aggregates: ['sum'], columngroup: 'total', cellsformat: 'd', aggregatesrenderer: function (aggregates, column, element) {
+                                                var renderstring = "<br/><b>";
+                                                var total = "";
+                                                $.each(aggregates, function (key, value) {
+                                                    total = value;
+                                                });
+                                                return renderstring  + total + "</b>";
+                                            }
+                                        },
+                                        { text: "Atendidos", datafield: "TotalAtendidos", cellsalign: 'right', align: 'center', aggregates: ['sum'], columngroup: 'total', cellsformat: 'd', aggregatesrenderer: function (aggregates, column, element) {
+                                            var renderstring = "<br/><b>";
+                                            var total = "";
+                                                $.each(aggregates, function (key, value) {
+                                                    total = value;
+                                                });
+                                                return renderstring  + total +"</b>";
+                                            }
+                                        },
+                                        {
+                                            text: "Transferencia", datafield: "TotalTransferencias", cellsalign: 'right', align: 'center', aggregates: ['sum'], columngroup: 'total', cellsformat: 'd2', aggregatesrenderer: function (aggregates, column, element) {
+                                                var renderstring = "<br/><b>";
+                                                var total = "";
+                                                $.each(aggregates, function (key, value) {
+                                                    total = value;
+                                                });
+                                                return renderstring + total + "</b>";
+                                            }
+                                        },
+                                        {
+                                            text: "Atencion", datafield: "DentroAtenciones", cellsalign: 'right', align: 'center', aggregates: ['sum'], columngroup: 'dentro', cellsformat: 'd', aggregatesrenderer: function (aggregates, column, element) {
+                                                var renderstring = "<br/><b>";
+                                                var total = "";
+                                                $.each(aggregates, function (key, value) {
+                                                    total = value;
+                                                });
+                                                return renderstring + total +"</b>";
+                                            }
+                                        },
+                                        {
+                                            text: "Atendidos", datafield: "DentroAtendidos", cellsalign: 'right', align: 'center', aggregates: ['sum'], columngroup: 'dentro', cellsformat: 'd', aggregatesrenderer: function (aggregates, column, element) {
+                                                var renderstring = "<br/><b>";
+                                                var total = "";
+                                                $.each(aggregates, function (key, value) {
+                                                    total = value;
+                                                });
+                                                return renderstring + total + "</b>";
+                                            }
+                                        },
+                                        {
+                                            text: "Transferencia", datafield: "DentroTransferencias", cellsalign: 'right', align: 'center', aggregates: ['sum'], columngroup: 'dentro', cellsformat: 'd2', aggregatesrenderer: function (aggregates, column, element) {
+                                                var renderstring = "<br/><b>";
+                                                var total = "";
+                                                $.each(aggregates, function (key, value) {
+                                                    total = value;
+                                                });
+                                                return renderstring + total +"</b>";
+                                            }
+                                        },
+                                        {
+                                            text: "Atencion", datafield: "FueraAtenciones", cellsalign: 'right', align: 'center', aggregates: ['sum'], columngroup: 'fuera', cellsformat: 'd', aggregatesrenderer: function (aggregates, column, element) {
+                                                var renderstring = "<br/><b>";
+                                                var total = "";
+                                                $.each(aggregates, function (key, value) {
+                                                    total = value;
+                                                });
+                                                return renderstring + total + "</b>";
+                                            }
+                                        },
+                                        {
+                                            text: "Atendidos", datafield: "FueraAtendidos", cellsalign: 'right', align: 'center', aggregates: ['sum'], columngroup: 'fuera', cellsformat: 'd', aggregatesrenderer: function (aggregates, column, element) {
+                                                var renderstring = "<br/><b>";
+                                                var total = "";
+                                                $.each(aggregates, function (key, value) {
+                                                    total = value;
+                                                });
+                                                return renderstring + total + "</b>";
+                                            }
+                                        },
+                                        {
+                                            text: "Transferencia", datafield: "FueraTransferencias", cellsalign: 'right', align: 'center', aggregates: ['sum'], columngroup: 'fuera', cellsformat: 'd2', aggregatesrenderer: function (aggregates, column, element) {
+                                                var renderstring = "<br/><b>";
+                                                var total = "";
+                                                $.each(aggregates, function (key, value) {
+                                                    total = value;
+                                                });
+                                                return renderstring + total + "</b>";
+                                            }
+                                        }
+                                    ],
+                                    columngroups: [
+                                        { text: 'Totales', align: 'center', name: 'total' },
+                                        { text: 'Dentro de la Region', align: 'center', name: 'dentro' },
+                                        { text: 'Fuera de la Region', align: 'center', name: 'fuera' }
+                                    ]
+                                });
+
+            OnObtenerReporte($("#ddlAnio").val());
+        });
+
+        
+        function OnObtenerReporte(e)
+        {
+            var anio = $("#ddlAnio").val();
+            
+            var source =
+            {
+                datatype: "json",                
+                data:{anio:anio},
+                datafields: [
+                     { name: 'Anio', type: 'number' },
+					 { name: 'Region', type: 'string' },
+					 { name: 'TotalAtenciones', type: 'number' },
+					 { name: 'TotalAtendidos', type: 'number' },
+					 { name: 'TotalTransferencias', type: 'number' },
+                     { name: 'DentroAtenciones', type: 'number' },
+					 { name: 'DentroAtendidos', type: 'number' },
+					 { name: 'DentroTransferencias', type: 'number' },
+                     { name: 'FueraAtenciones', type: 'number' },
+					 { name: 'FueraAtendidos', type: 'number' },
+					 { name: 'FueraTransferencias', type: 'number' }
+                ],
+                url: '/Reportes/ObtenerReporte'
+            };
+            var dataAdapter = new $.jqx.dataAdapter(source);          
+            $("#resultado").jqxGrid({ source: dataAdapter });          
+          
+            e.preventDefault();
+        }
+
+      
+    </script>
+}
+<h3>Reporte Atendidos por Region</h3>
+<br />
+@using(Html.BeginForm("Exportar","Reportes"))
+{
+<table width="100%">
+    <tr>
+        <td width="50%"><span>Seleccione Año:&nbsp;</span>@Html.DropDownList("ddlAnio",new SelectList(ViewBag.Anios,"Codigo","Descripcion"))<br /><br /></td>
+        <td width="50%" align="right"><input type="submit" value="Exportar a Excel" /></td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            <div id="resultado">
+
+            </div>
+        </td>
+        
+    </tr>
+</table>
+}

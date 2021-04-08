@@ -1,0 +1,455 @@
+C:\FissalV2DEV_RTM08.04.2015\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.csprojResolveAssemblyReference.cache
+C:\FissalV2DEV_RTM08.04.2015\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.csproj.ResolveComReference.cache
+C:\FissalV2DEV_RTM08.04.2015\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmControlCalidad.resources
+C:\FissalV2DEV_RTM08.04.2015\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmEstadisticasAtenciones.resources
+C:\FissalV2DEV_RTM08.04.2015\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmExportarAtencion.resources
+C:\FissalV2DEV_RTM08.04.2015\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmBuscarAtencion.resources
+C:\FissalV2DEV_RTM08.04.2015\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmBuscarEnfermedad.resources
+C:\FissalV2DEV_RTM08.04.2015\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmBuscarEESS.resources
+C:\FissalV2DEV_RTM08.04.2015\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmBuscarMedicamento.resources
+C:\FissalV2DEV_RTM08.04.2015\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmBuscarProcedimiento.resources
+C:\FissalV2DEV_RTM08.04.2015\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmBuscarProfesional.resources
+C:\FissalV2DEV_RTM08.04.2015\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmBuscarTarifario.resources
+C:\FissalV2DEV_RTM08.04.2015\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmFua2.resources
+C:\FissalV2DEV_RTM08.04.2015\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmAcercade.resources
+C:\FissalV2DEV_RTM08.04.2015\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmAyuda.resources
+C:\FissalV2DEV_RTM08.04.2015\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmFuasObservados.resources
+C:\FissalV2DEV_RTM08.04.2015\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmRegistrarObservacion.resources
+C:\FissalV2DEV_RTM08.04.2015\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmSelectorControlesMedicos.resources
+C:\FissalV2DEV_RTM08.04.2015\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmFuasObservadosDet.resources
+C:\FissalV2DEV_RTM08.04.2015\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmSupervisionGestionCta.resources
+C:\FissalV2DEV_RTM08.04.2015\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmPreAutorizacion.resources
+C:\FissalV2DEV_RTM08.04.2015\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmPreautorizaciones.resources
+C:\FissalV2DEV_RTM08.04.2015\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FormSelectorTratamientos.resources
+C:\FissalV2DEV_RTM08.04.2015\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmSelectorPacientes.resources
+C:\FissalV2DEV_RTM08.04.2015\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmEstadoCuenta.resources
+C:\FissalV2DEV_RTM08.04.2015\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmGestionConciliacion.resources
+C:\FissalV2DEV_RTM08.04.2015\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmRegistrarConciliacion.resources
+C:\FissalV2DEV_RTM08.04.2015\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmGestionControlMedico.resources
+C:\FissalV2DEV_RTM08.04.2015\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmRegistrarControlMedico.resources
+C:\FissalV2DEV_RTM08.04.2015\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmGestionEstadoCuenta.resources
+C:\FissalV2DEV_RTM08.04.2015\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmResumenConciliacion.resources
+C:\FissalV2DEV_RTM08.04.2015\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmCerrarProduccion.resources
+C:\FissalV2DEV_RTM08.04.2015\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmGestionProduccion.resources
+C:\FissalV2DEV_RTM08.04.2015\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmProcesarCierreProduccion.resources
+C:\FissalV2DEV_RTM08.04.2015\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmRegistrarCierreProduccion.resources
+C:\FissalV2DEV_RTM08.04.2015\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmEstadisticasAtendidosSis.resources
+C:\FissalV2DEV_RTM08.04.2015\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.frmControlUsuario.resources
+C:\FissalV2DEV_RTM08.04.2015\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmProfesional.resources
+C:\FissalV2DEV_RTM08.04.2015\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmSolicitudAutorizacion.resources
+C:\FissalV2DEV_RTM08.04.2015\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmSolicitudesAutorizacion.resources
+C:\FissalV2DEV_RTM08.04.2015\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmReset.resources
+C:\FissalV2DEV_RTM08.04.2015\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmReporteAtencion.resources
+C:\FissalV2DEV_RTM08.04.2015\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmGestionarAutorizaciones.resources
+C:\FissalV2DEV_RTM08.04.2015\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmExit.resources
+C:\FissalV2DEV_RTM08.04.2015\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmBuscadorAtencionesSis.resources
+C:\FissalV2DEV_RTM08.04.2015\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmEstadisticasAutorizaciones.resources
+C:\FissalV2DEV_RTM08.04.2015\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmBuscarPaquete.resources
+C:\FissalV2DEV_RTM08.04.2015\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmPaqueteDetalle.resources
+C:\FissalV2DEV_RTM08.04.2015\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmRegistrarPaquete.resources
+C:\FissalV2DEV_RTM08.04.2015\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmConsumoValorizado.resources
+C:\FissalV2DEV_RTM08.04.2015\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmFuaDetalle.resources
+C:\FissalV2DEV_RTM08.04.2015\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmListaFuaNoValorizado.resources
+C:\FissalV2DEV_RTM08.04.2015\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmListaMedProcNoValorizado.resources
+C:\FissalV2DEV_RTM08.04.2015\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmFua.resources
+C:\FissalV2DEV_RTM08.04.2015\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmMantPerfiles.resources
+C:\FissalV2DEV_RTM08.04.2015\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmPerfiles.resources
+C:\FissalV2DEV_RTM08.04.2015\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmUsuarios.resources
+C:\FissalV2DEV_RTM08.04.2015\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmBuscadorAutorizaciones.resources
+C:\FissalV2DEV_RTM08.04.2015\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.frmRegistrarAutorizacion.resources
+C:\FissalV2DEV_RTM08.04.2015\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.frmReporteAutorizacion.resources
+C:\FissalV2DEV_RTM08.04.2015\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmSelectorEstablecimientos.resources
+C:\FissalV2DEV_RTM08.04.2015\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmSelectorEstadios.resources
+C:\FissalV2DEV_RTM08.04.2015\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmSelectorFases.resources
+C:\FissalV2DEV_RTM08.04.2015\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmSelectorTiposAutorizacion.resources
+C:\FissalV2DEV_RTM08.04.2015\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmBuscadorAtenciones.resources
+C:\FissalV2DEV_RTM08.04.2015\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmSelectorCategorias.resources
+C:\FissalV2DEV_RTM08.04.2015\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmSelectorMedicamentos.resources
+C:\FissalV2DEV_RTM08.04.2015\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmSelectorProcedimientos.resources
+C:\FissalV2DEV_RTM08.04.2015\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.frmLogin.resources
+C:\FissalV2DEV_RTM08.04.2015\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmValorizacion.resources
+C:\FissalV2DEV_RTM08.04.2015\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmValorizacionPreliminar.resources
+C:\FissalV2DEV_RTM08.04.2015\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.frmPrincipal.resources
+C:\FissalV2DEV_RTM08.04.2015\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.Properties.Resources.resources
+C:\FissalV2DEV_RTM08.04.2015\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.Valorizacion.resources
+C:\FissalV2DEV_RTM08.04.2015\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.csproj.GenerateResource.Cache
+C:\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\bin\Release\FissalWinForm.exe.config
+C:\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\bin\Release\FissalWinForm.exe
+C:\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\bin\Release\FissalWinForm.pdb
+C:\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\bin\Release\FissalBE.dll
+C:\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\bin\Release\FissalBL.dll
+C:\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\bin\Release\ICSharpCode.SharpZipLib.dll
+C:\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\bin\Release\Ionic.Zip.dll
+C:\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\bin\Release\NPOI.dll
+C:\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\bin\Release\NPOI.OOXML.dll
+C:\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\bin\Release\NPOI.OpenXml4Net.dll
+C:\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\bin\Release\NPOI.OpenXmlFormats.dll
+C:\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\bin\Release\FissalDA.dll
+C:\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\bin\Release\FissalBE.pdb
+C:\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\bin\Release\FissalBL.pdb
+C:\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\bin\Release\FissalDA.pdb
+C:\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.csprojResolveAssemblyReference.cache
+C:\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.csproj.ResolveComReference.cache
+C:\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmCierreDigitacion.resources
+C:\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmControlCalidad.resources
+C:\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmEstadisticasAtenciones.resources
+C:\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmExportarAtencion.resources
+C:\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmBuscarAtencion.resources
+C:\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmBuscarEnfermedad.resources
+C:\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmBuscarEESS.resources
+C:\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmBuscarMedicamento.resources
+C:\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmBuscarProcedimiento.resources
+C:\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmBuscarProfesional.resources
+C:\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmBuscarTarifario.resources
+C:\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmFua2.resources
+C:\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmPostConsistencia.resources
+C:\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmAcercade.resources
+C:\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmAyuda.resources
+C:\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmFuasObservados.resources
+C:\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmRegistrarObservacion.resources
+C:\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmSelectorControlesMedicos.resources
+C:\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmFuasObservadosDet.resources
+C:\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmSupervisionGestionCta.resources
+C:\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmPreAutorizacion.resources
+C:\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmPreautorizaciones.resources
+C:\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FormSelectorTratamientos.resources
+C:\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmSelectorPacientes.resources
+C:\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmEstadoCuenta.resources
+C:\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmGestionConciliacion.resources
+C:\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmRegistrarConciliacion.resources
+C:\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmGestionControlMedico.resources
+C:\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmRegistrarControlMedico.resources
+C:\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmGestionEstadoCuenta.resources
+C:\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmResumenConciliacion.resources
+C:\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmCerrarProduccion.resources
+C:\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmGestionProduccion.resources
+C:\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmRegistrarCierreProduccion.resources
+C:\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmEstadisticasAtendidosSis.resources
+C:\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.frmControlUsuario.resources
+C:\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmProfesional.resources
+C:\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmSolicitudAutorizacion.resources
+C:\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmSolicitudesAutorizacion.resources
+C:\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmReset.resources
+C:\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmReporteAtencion.resources
+C:\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmGestionarAutorizaciones.resources
+C:\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmExit.resources
+C:\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmBuscadorAtencionesSis.resources
+C:\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmEstadisticasAutorizaciones.resources
+C:\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmBuscarPaquete.resources
+C:\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmPaqueteDetalle.resources
+C:\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmRegistrarPaquete.resources
+C:\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmConsumoValorizado.resources
+C:\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmFuaDetalle.resources
+C:\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmListaFuaNoValorizado.resources
+C:\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmListaMedProcNoValorizado.resources
+C:\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmFua.resources
+C:\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmMantPerfiles.resources
+C:\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmPerfiles.resources
+C:\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmUsuarios.resources
+C:\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmBuscadorAutorizaciones.resources
+C:\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.frmRegistrarAutorizacion.resources
+C:\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.frmReporteAutorizacion.resources
+C:\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmSelectorEstablecimientos.resources
+C:\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmSelectorEstadios.resources
+C:\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmSelectorFases.resources
+C:\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmSelectorTiposAutorizacion.resources
+C:\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmBuscadorAtenciones.resources
+C:\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmSelectorCategorias.resources
+C:\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmSelectorMedicamentos.resources
+C:\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmSelectorProcedimientos.resources
+C:\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.frmLogin.resources
+C:\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmValorizacion.resources
+C:\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmValorizacionPreliminar.resources
+C:\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.frmPrincipal.resources
+C:\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.Properties.Resources.resources
+C:\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.Valorizacion.resources
+C:\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.csproj.GenerateResource.Cache
+C:\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.exe
+C:\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.pdb
+D:\C\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\bin\Release\FissalWinForm.exe
+D:\C\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\bin\Release\FissalBL.dll
+D:\C\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\bin\Release\FissalDA.dll
+D:\C\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\bin\Release\FissalBE.dll
+D:\C\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\bin\Release\ICSharpCode.SharpZipLib.dll
+D:\C\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\bin\Release\Ionic.Zip.dll
+D:\C\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\bin\Release\NPOI.dll
+D:\C\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\bin\Release\NPOI.OOXML.dll
+D:\C\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\bin\Release\NPOI.OpenXml4Net.dll
+D:\C\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\bin\Release\NPOI.OpenXmlFormats.dll
+D:\C\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\bin\Release\FissalBE.pdb
+D:\C\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\bin\Release\FissalBL.pdb
+D:\C\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\bin\Release\FissalDA.pdb
+D:\C\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.csprojResolveAssemblyReference.cache
+D:\C\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.csproj.ResolveComReference.cache
+D:\C\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmCierreDigitacion.resources
+D:\C\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmControlCalidad.resources
+D:\C\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmEstadisticasAtenciones.resources
+D:\C\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmExportarAtencion.resources
+D:\C\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmBuscarAtencion.resources
+D:\C\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmBuscarEnfermedad.resources
+D:\C\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmBuscarEESS.resources
+D:\C\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmBuscarMedicamento.resources
+D:\C\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmBuscarProcedimiento.resources
+D:\C\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmBuscarProfesional.resources
+D:\C\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmBuscarTarifario.resources
+D:\C\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmFua2.resources
+D:\C\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmPostConsistencia.resources
+D:\C\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmAcercade.resources
+D:\C\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmAyuda.resources
+D:\C\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmFuasObservados.resources
+D:\C\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmRegistrarObservacion.resources
+D:\C\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmSelectorControlesMedicos.resources
+D:\C\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmFuasObservadosDet.resources
+D:\C\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmSupervisionGestionCta.resources
+D:\C\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmPreAutorizacion.resources
+D:\C\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmPreautorizaciones.resources
+D:\C\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FormSelectorTratamientos.resources
+D:\C\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmSelectorPacientes.resources
+D:\C\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmEstadoCuenta.resources
+D:\C\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmGestionConciliacion.resources
+D:\C\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmRegistrarConciliacion.resources
+D:\C\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmGestionControlMedico.resources
+D:\C\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmRegistrarControlMedico.resources
+D:\C\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmGestionEstadoCuenta.resources
+D:\C\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmResumenConciliacion.resources
+D:\C\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmCerrarProduccion.resources
+D:\C\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmGestionProduccion.resources
+D:\C\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmRegistrarCierreProduccion.resources
+D:\C\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmEstadisticasAtendidosSis.resources
+D:\C\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.frmControlUsuario.resources
+D:\C\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmProfesional.resources
+D:\C\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmSolicitudAutorizacion.resources
+D:\C\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmSolicitudesAutorizacion.resources
+D:\C\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmReset.resources
+D:\C\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmReporteAtencion.resources
+D:\C\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmGestionarAutorizaciones.resources
+D:\C\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmExit.resources
+D:\C\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmBuscadorAtencionesSis.resources
+D:\C\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmEstadisticasAutorizaciones.resources
+D:\C\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmBuscarPaquete.resources
+D:\C\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmPaqueteDetalle.resources
+D:\C\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmRegistrarPaquete.resources
+D:\C\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmConsumoValorizado.resources
+D:\C\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmFuaDetalle.resources
+D:\C\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmListaFuaNoValorizado.resources
+D:\C\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmListaMedProcNoValorizado.resources
+D:\C\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmFua.resources
+D:\C\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmMantPerfiles.resources
+D:\C\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmPerfiles.resources
+D:\C\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmUsuarios.resources
+D:\C\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmBuscadorAutorizaciones.resources
+D:\C\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.frmRegistrarAutorizacion.resources
+D:\C\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.frmReporteAutorizacion.resources
+D:\C\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmSelectorEstablecimientos.resources
+D:\C\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmSelectorEstadios.resources
+D:\C\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmSelectorFases.resources
+D:\C\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmSelectorTiposAutorizacion.resources
+D:\C\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmBuscadorAtenciones.resources
+D:\C\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmSelectorCategorias.resources
+D:\C\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmSelectorMedicamentos.resources
+D:\C\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmSelectorProcedimientos.resources
+D:\C\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.frmLogin.resources
+D:\C\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmValorizacion.resources
+D:\C\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmValorizacionPreliminar.resources
+D:\C\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.frmPrincipal.resources
+D:\C\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.Properties.Resources.resources
+D:\C\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.Valorizacion.resources
+D:\C\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.csproj.GenerateResource.Cache
+D:\C\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.exe
+D:\C\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.pdb
+D:\C\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\bin\Release\FissalWinForm.exe.config
+D:\C\FissalV2DEV_RTM\FissalV2DEV\FissalWinForm\bin\Release\FissalWinForm.pdb
+C:\Users\Usuario\Desktop\APLICACION FUA\FissalV2DEV\FissalWinForm\bin\Release\FissalWinForm.exe.config
+C:\Users\Usuario\Desktop\APLICACION FUA\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.csproj.ResolveComReference.cache
+C:\Users\Usuario\Desktop\APLICACION FUA\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.exe
+C:\Users\Usuario\Desktop\APLICACION FUA\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.pdb
+C:\Users\Usuario\Desktop\APLICACION FUA\FissalV2DEV\FissalWinForm\bin\Release\FissalWinForm.exe
+C:\Users\Usuario\Desktop\APLICACION FUA\FissalV2DEV\FissalWinForm\bin\Release\FissalWinForm.pdb
+C:\Users\Usuario\Desktop\APLICACION FUA\FissalV2DEV\FissalWinForm\bin\Release\FissalBE.dll
+C:\Users\Usuario\Desktop\APLICACION FUA\FissalV2DEV\FissalWinForm\bin\Release\FissalBL.dll
+C:\Users\Usuario\Desktop\APLICACION FUA\FissalV2DEV\FissalWinForm\bin\Release\ICSharpCode.SharpZipLib.dll
+C:\Users\Usuario\Desktop\APLICACION FUA\FissalV2DEV\FissalWinForm\bin\Release\Ionic.Zip.dll
+C:\Users\Usuario\Desktop\APLICACION FUA\FissalV2DEV\FissalWinForm\bin\Release\NPOI.dll
+C:\Users\Usuario\Desktop\APLICACION FUA\FissalV2DEV\FissalWinForm\bin\Release\NPOI.OOXML.dll
+C:\Users\Usuario\Desktop\APLICACION FUA\FissalV2DEV\FissalWinForm\bin\Release\NPOI.OpenXml4Net.dll
+C:\Users\Usuario\Desktop\APLICACION FUA\FissalV2DEV\FissalWinForm\bin\Release\NPOI.OpenXmlFormats.dll
+C:\Users\Usuario\Desktop\APLICACION FUA\FissalV2DEV\FissalWinForm\bin\Release\FissalDA.dll
+C:\Users\Usuario\Desktop\APLICACION FUA\FissalV2DEV\FissalWinForm\bin\Release\FissalBE.pdb
+C:\Users\Usuario\Desktop\APLICACION FUA\FissalV2DEV\FissalWinForm\bin\Release\FissalBL.pdb
+C:\Users\Usuario\Desktop\APLICACION FUA\FissalV2DEV\FissalWinForm\bin\Release\FissalDA.pdb
+C:\Users\Usuario\Desktop\APLICACION FUA\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.csprojResolveAssemblyReference.cache
+C:\Users\Usuario\Desktop\APLICACION FUA\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmCierreDigitacion.resources
+C:\Users\Usuario\Desktop\APLICACION FUA\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmControlCalidad.resources
+C:\Users\Usuario\Desktop\APLICACION FUA\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmEstadisticasAtenciones.resources
+C:\Users\Usuario\Desktop\APLICACION FUA\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmExportarAtencion.resources
+C:\Users\Usuario\Desktop\APLICACION FUA\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmBuscarAtencion.resources
+C:\Users\Usuario\Desktop\APLICACION FUA\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmBuscarEnfermedad.resources
+C:\Users\Usuario\Desktop\APLICACION FUA\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmBuscarEESS.resources
+C:\Users\Usuario\Desktop\APLICACION FUA\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmBuscarMedicamento.resources
+C:\Users\Usuario\Desktop\APLICACION FUA\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmBuscarProcedimiento.resources
+C:\Users\Usuario\Desktop\APLICACION FUA\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmBuscarProfesional.resources
+C:\Users\Usuario\Desktop\APLICACION FUA\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmBuscarTarifario.resources
+C:\Users\Usuario\Desktop\APLICACION FUA\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmFua2.resources
+C:\Users\Usuario\Desktop\APLICACION FUA\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmPostConsistencia.resources
+C:\Users\Usuario\Desktop\APLICACION FUA\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmAcercade.resources
+C:\Users\Usuario\Desktop\APLICACION FUA\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmAyuda.resources
+C:\Users\Usuario\Desktop\APLICACION FUA\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmFuasObservados.resources
+C:\Users\Usuario\Desktop\APLICACION FUA\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmRegistrarObservacion.resources
+C:\Users\Usuario\Desktop\APLICACION FUA\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmSelectorControlesMedicos.resources
+C:\Users\Usuario\Desktop\APLICACION FUA\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmFuasObservadosDet.resources
+C:\Users\Usuario\Desktop\APLICACION FUA\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmSupervisionGestionCta.resources
+C:\Users\Usuario\Desktop\APLICACION FUA\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmPreAutorizacion.resources
+C:\Users\Usuario\Desktop\APLICACION FUA\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmPreautorizaciones.resources
+C:\Users\Usuario\Desktop\APLICACION FUA\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FormSelectorTratamientos.resources
+C:\Users\Usuario\Desktop\APLICACION FUA\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmSelectorPacientes.resources
+C:\Users\Usuario\Desktop\APLICACION FUA\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmEstadoCuenta.resources
+C:\Users\Usuario\Desktop\APLICACION FUA\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmGestionConciliacion.resources
+C:\Users\Usuario\Desktop\APLICACION FUA\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmRegistrarConciliacion.resources
+C:\Users\Usuario\Desktop\APLICACION FUA\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmGestionControlMedico.resources
+C:\Users\Usuario\Desktop\APLICACION FUA\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmRegistrarControlMedico.resources
+C:\Users\Usuario\Desktop\APLICACION FUA\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmGestionEstadoCuenta.resources
+C:\Users\Usuario\Desktop\APLICACION FUA\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmResumenConciliacion.resources
+C:\Users\Usuario\Desktop\APLICACION FUA\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmCerrarProduccion.resources
+C:\Users\Usuario\Desktop\APLICACION FUA\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmGestionProduccion.resources
+C:\Users\Usuario\Desktop\APLICACION FUA\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmRegistrarCierreProduccion.resources
+C:\Users\Usuario\Desktop\APLICACION FUA\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmEstadisticasAtendidosSis.resources
+C:\Users\Usuario\Desktop\APLICACION FUA\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.frmControlUsuario.resources
+C:\Users\Usuario\Desktop\APLICACION FUA\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmProfesional.resources
+C:\Users\Usuario\Desktop\APLICACION FUA\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmSolicitudAutorizacion.resources
+C:\Users\Usuario\Desktop\APLICACION FUA\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmSolicitudesAutorizacion.resources
+C:\Users\Usuario\Desktop\APLICACION FUA\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmReset.resources
+C:\Users\Usuario\Desktop\APLICACION FUA\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmReporteAtencion.resources
+C:\Users\Usuario\Desktop\APLICACION FUA\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmGestionarAutorizaciones.resources
+C:\Users\Usuario\Desktop\APLICACION FUA\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmExit.resources
+C:\Users\Usuario\Desktop\APLICACION FUA\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmBuscadorAtencionesSis.resources
+C:\Users\Usuario\Desktop\APLICACION FUA\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmEstadisticasAutorizaciones.resources
+C:\Users\Usuario\Desktop\APLICACION FUA\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmBuscarPaquete.resources
+C:\Users\Usuario\Desktop\APLICACION FUA\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmPaqueteDetalle.resources
+C:\Users\Usuario\Desktop\APLICACION FUA\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmRegistrarPaquete.resources
+C:\Users\Usuario\Desktop\APLICACION FUA\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmConsumoValorizado.resources
+C:\Users\Usuario\Desktop\APLICACION FUA\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmFuaDetalle.resources
+C:\Users\Usuario\Desktop\APLICACION FUA\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmListaFuaNoValorizado.resources
+C:\Users\Usuario\Desktop\APLICACION FUA\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmListaMedProcNoValorizado.resources
+C:\Users\Usuario\Desktop\APLICACION FUA\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmFua.resources
+C:\Users\Usuario\Desktop\APLICACION FUA\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmMantPerfiles.resources
+C:\Users\Usuario\Desktop\APLICACION FUA\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmPerfiles.resources
+C:\Users\Usuario\Desktop\APLICACION FUA\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmUsuarios.resources
+C:\Users\Usuario\Desktop\APLICACION FUA\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmBuscadorAutorizaciones.resources
+C:\Users\Usuario\Desktop\APLICACION FUA\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.frmRegistrarAutorizacion.resources
+C:\Users\Usuario\Desktop\APLICACION FUA\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.frmReporteAutorizacion.resources
+C:\Users\Usuario\Desktop\APLICACION FUA\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmSelectorEstablecimientos.resources
+C:\Users\Usuario\Desktop\APLICACION FUA\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmSelectorEstadios.resources
+C:\Users\Usuario\Desktop\APLICACION FUA\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmSelectorFases.resources
+C:\Users\Usuario\Desktop\APLICACION FUA\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmSelectorTiposAutorizacion.resources
+C:\Users\Usuario\Desktop\APLICACION FUA\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmBuscadorAtenciones.resources
+C:\Users\Usuario\Desktop\APLICACION FUA\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmSelectorCategorias.resources
+C:\Users\Usuario\Desktop\APLICACION FUA\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmSelectorMedicamentos.resources
+C:\Users\Usuario\Desktop\APLICACION FUA\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmSelectorProcedimientos.resources
+C:\Users\Usuario\Desktop\APLICACION FUA\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.frmLogin.resources
+C:\Users\Usuario\Desktop\APLICACION FUA\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmValorizacion.resources
+C:\Users\Usuario\Desktop\APLICACION FUA\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmValorizacionPreliminar.resources
+C:\Users\Usuario\Desktop\APLICACION FUA\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.frmPrincipal.resources
+C:\Users\Usuario\Desktop\APLICACION FUA\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.Properties.Resources.resources
+C:\Users\Usuario\Desktop\APLICACION FUA\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.Valorizacion.resources
+C:\Users\Usuario\Desktop\APLICACION FUA\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.csproj.GenerateResource.Cache
+C:\Users\Usuario\Desktop\APLICACION FUA V2\FissalV2DEV\FissalWinForm\bin\Release\FissalWinForm.exe.config
+C:\Users\Usuario\Desktop\APLICACION FUA V2\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.csproj.ResolveComReference.cache
+C:\Users\Usuario\Desktop\APLICACION FUA V2\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.exe
+C:\Users\Usuario\Desktop\APLICACION FUA V2\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.pdb
+D:\fvergara\Desktop\APLICACION FUA V2\FissalV2DEV\FissalWinForm\bin\Release\FissalWinForm.exe.config
+D:\fvergara\Desktop\APLICACION FUA V2\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.csproj.ResolveComReference.cache
+D:\fvergara\Desktop\APLICACION FUA V2\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.exe
+D:\fvergara\Desktop\APLICACION FUA V2\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.pdb
+D:\fvergara\Desktop\APLICACION FUA V2\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmCierreDigitacion.resources
+D:\fvergara\Desktop\APLICACION FUA V2\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmControlCalidad.resources
+D:\fvergara\Desktop\APLICACION FUA V2\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmEstadisticasAtenciones.resources
+D:\fvergara\Desktop\APLICACION FUA V2\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmExportarAtencion.resources
+D:\fvergara\Desktop\APLICACION FUA V2\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmBuscarAtencion.resources
+D:\fvergara\Desktop\APLICACION FUA V2\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmBuscarEnfermedad.resources
+D:\fvergara\Desktop\APLICACION FUA V2\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmBuscarEESS.resources
+D:\fvergara\Desktop\APLICACION FUA V2\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmBuscarMedicamento.resources
+D:\fvergara\Desktop\APLICACION FUA V2\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmBuscarProcedimiento.resources
+D:\fvergara\Desktop\APLICACION FUA V2\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmBuscarProfesional.resources
+D:\fvergara\Desktop\APLICACION FUA V2\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmBuscarTarifario.resources
+D:\fvergara\Desktop\APLICACION FUA V2\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmFua2.resources
+D:\fvergara\Desktop\APLICACION FUA V2\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmPostConsistencia.resources
+D:\fvergara\Desktop\APLICACION FUA V2\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmAcercade.resources
+D:\fvergara\Desktop\APLICACION FUA V2\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmAyuda.resources
+D:\fvergara\Desktop\APLICACION FUA V2\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmFuasObservados.resources
+D:\fvergara\Desktop\APLICACION FUA V2\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmRegistrarObservacion.resources
+D:\fvergara\Desktop\APLICACION FUA V2\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmSelectorControlesMedicos.resources
+D:\fvergara\Desktop\APLICACION FUA V2\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmFuasObservadosDet.resources
+D:\fvergara\Desktop\APLICACION FUA V2\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmSupervisionGestionCta.resources
+D:\fvergara\Desktop\APLICACION FUA V2\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmPreAutorizacion.resources
+D:\fvergara\Desktop\APLICACION FUA V2\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmPreautorizaciones.resources
+D:\fvergara\Desktop\APLICACION FUA V2\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FormSelectorTratamientos.resources
+D:\fvergara\Desktop\APLICACION FUA V2\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmSelectorPacientes.resources
+D:\fvergara\Desktop\APLICACION FUA V2\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmEstadoCuenta.resources
+D:\fvergara\Desktop\APLICACION FUA V2\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmGestionConciliacion.resources
+D:\fvergara\Desktop\APLICACION FUA V2\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmRegistrarConciliacion.resources
+D:\fvergara\Desktop\APLICACION FUA V2\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmGestionControlMedico.resources
+D:\fvergara\Desktop\APLICACION FUA V2\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmRegistrarControlMedico.resources
+D:\fvergara\Desktop\APLICACION FUA V2\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmGestionEstadoCuenta.resources
+D:\fvergara\Desktop\APLICACION FUA V2\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmResumenConciliacion.resources
+D:\fvergara\Desktop\APLICACION FUA V2\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmCerrarProduccion.resources
+D:\fvergara\Desktop\APLICACION FUA V2\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmGestionProduccion.resources
+D:\fvergara\Desktop\APLICACION FUA V2\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmRegistrarCierreProduccion.resources
+D:\fvergara\Desktop\APLICACION FUA V2\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmEstadisticasAtendidosSis.resources
+D:\fvergara\Desktop\APLICACION FUA V2\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.frmControlUsuario.resources
+D:\fvergara\Desktop\APLICACION FUA V2\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmProfesional.resources
+D:\fvergara\Desktop\APLICACION FUA V2\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmSolicitudAutorizacion.resources
+D:\fvergara\Desktop\APLICACION FUA V2\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmSolicitudesAutorizacion.resources
+D:\fvergara\Desktop\APLICACION FUA V2\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmReset.resources
+D:\fvergara\Desktop\APLICACION FUA V2\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmReporteAtencion.resources
+D:\fvergara\Desktop\APLICACION FUA V2\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmGestionarAutorizaciones.resources
+D:\fvergara\Desktop\APLICACION FUA V2\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmExit.resources
+D:\fvergara\Desktop\APLICACION FUA V2\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmBuscadorAtencionesSis.resources
+D:\fvergara\Desktop\APLICACION FUA V2\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmEstadisticasAutorizaciones.resources
+D:\fvergara\Desktop\APLICACION FUA V2\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmBuscarPaquete.resources
+D:\fvergara\Desktop\APLICACION FUA V2\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmPaqueteDetalle.resources
+D:\fvergara\Desktop\APLICACION FUA V2\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmRegistrarPaquete.resources
+D:\fvergara\Desktop\APLICACION FUA V2\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmConsumoValorizado.resources
+D:\fvergara\Desktop\APLICACION FUA V2\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmFuaDetalle.resources
+D:\fvergara\Desktop\APLICACION FUA V2\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmListaFuaNoValorizado.resources
+D:\fvergara\Desktop\APLICACION FUA V2\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmListaMedProcNoValorizado.resources
+D:\fvergara\Desktop\APLICACION FUA V2\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmFua.resources
+D:\fvergara\Desktop\APLICACION FUA V2\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmMantPerfiles.resources
+D:\fvergara\Desktop\APLICACION FUA V2\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmPerfiles.resources
+D:\fvergara\Desktop\APLICACION FUA V2\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmUsuarios.resources
+D:\fvergara\Desktop\APLICACION FUA V2\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmBuscadorAutorizaciones.resources
+D:\fvergara\Desktop\APLICACION FUA V2\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.frmRegistrarAutorizacion.resources
+D:\fvergara\Desktop\APLICACION FUA V2\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.frmReporteAutorizacion.resources
+D:\fvergara\Desktop\APLICACION FUA V2\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmSelectorEstablecimientos.resources
+D:\fvergara\Desktop\APLICACION FUA V2\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmSelectorEstadios.resources
+D:\fvergara\Desktop\APLICACION FUA V2\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmSelectorFases.resources
+D:\fvergara\Desktop\APLICACION FUA V2\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmSelectorTiposAutorizacion.resources
+D:\fvergara\Desktop\APLICACION FUA V2\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmBuscadorAtenciones.resources
+D:\fvergara\Desktop\APLICACION FUA V2\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmSelectorCategorias.resources
+D:\fvergara\Desktop\APLICACION FUA V2\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmSelectorMedicamentos.resources
+D:\fvergara\Desktop\APLICACION FUA V2\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmSelectorProcedimientos.resources
+D:\fvergara\Desktop\APLICACION FUA V2\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.frmLogin.resources
+D:\fvergara\Desktop\APLICACION FUA V2\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmValorizacion.resources
+D:\fvergara\Desktop\APLICACION FUA V2\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.FrmValorizacionPreliminar.resources
+D:\fvergara\Desktop\APLICACION FUA V2\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.frmPrincipal.resources
+D:\fvergara\Desktop\APLICACION FUA V2\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.Properties.Resources.resources
+D:\fvergara\Desktop\APLICACION FUA V2\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.Valorizacion.resources
+D:\fvergara\Desktop\APLICACION FUA V2\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.csproj.GenerateResource.Cache
+D:\fvergara\Desktop\APLICACION FUA V2\FissalV2DEV\FissalWinForm\bin\Release\FissalWinForm.exe
+D:\fvergara\Desktop\APLICACION FUA V2\FissalV2DEV\FissalWinForm\bin\Release\FissalWinForm.pdb
+D:\fvergara\Desktop\APLICACION FUA V2\FissalV2DEV\FissalWinForm\bin\Release\FissalBE.dll
+D:\fvergara\Desktop\APLICACION FUA V2\FissalV2DEV\FissalWinForm\bin\Release\FissalBL.dll
+D:\fvergara\Desktop\APLICACION FUA V2\FissalV2DEV\FissalWinForm\bin\Release\ICSharpCode.SharpZipLib.dll
+D:\fvergara\Desktop\APLICACION FUA V2\FissalV2DEV\FissalWinForm\bin\Release\Ionic.Zip.dll
+D:\fvergara\Desktop\APLICACION FUA V2\FissalV2DEV\FissalWinForm\bin\Release\NPOI.dll
+D:\fvergara\Desktop\APLICACION FUA V2\FissalV2DEV\FissalWinForm\bin\Release\NPOI.OOXML.dll
+D:\fvergara\Desktop\APLICACION FUA V2\FissalV2DEV\FissalWinForm\bin\Release\NPOI.OpenXml4Net.dll
+D:\fvergara\Desktop\APLICACION FUA V2\FissalV2DEV\FissalWinForm\bin\Release\NPOI.OpenXmlFormats.dll
+D:\fvergara\Desktop\APLICACION FUA V2\FissalV2DEV\FissalWinForm\bin\Release\FissalDA.dll
+D:\fvergara\Desktop\APLICACION FUA V2\FissalV2DEV\FissalWinForm\bin\Release\FissalBE.pdb
+D:\fvergara\Desktop\APLICACION FUA V2\FissalV2DEV\FissalWinForm\bin\Release\FissalBL.pdb
+D:\fvergara\Desktop\APLICACION FUA V2\FissalV2DEV\FissalWinForm\bin\Release\FissalDA.pdb
+D:\fvergara\Desktop\APLICACION FUA V2\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.csprojResolveAssemblyReference.cache
+D:\Escritorio Noviembre\APLICACION FUA V2\FissalV2DEV\FissalWinForm\bin\Release\FissalWinForm.exe.config
+D:\Escritorio Noviembre\APLICACION FUA V2\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.csproj.ResolveComReference.cache
+D:\Escritorio Noviembre\APLICACION FUA V2\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.exe
+D:\Escritorio Noviembre\APLICACION FUA V2\FissalV2DEV\FissalWinForm\obj\Release\FissalWinForm.pdb
